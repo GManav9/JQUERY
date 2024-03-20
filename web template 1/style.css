@@ -1,0 +1,1252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sli1 {
+  height: 900px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/bg_1.jpg);
+  background-repeat: no-repeat;
+  border: 1px solid black;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.sli2 {
+  height: 900px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/bg_2.jpg);
+  border: 1px solid black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.sli3 {
+  height: 900px;
+  width: 100%;
+  border: 1px solid black;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/bg_3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.header1 {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+.logo a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: "Poppins", Arial, sans-serif;
+}
+nav {
+  height: auto;
+  width: 50%;
+}
+nav ul {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family: "Poppins", Arial, sans-serif;
+}
+nav ul button {
+  height: 50px;
+  width: 140px;
+  background-color: rgb(255, 163, 35);
+  border: 1px solid rgb(255, 163, 35);
+  color: white;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 17px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.a {
+  height: 400px;
+  width: 870px;
+  /* border: 1px solid red; */
+}
+.b {
+  height: 400px;
+  width: 1100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+.c {
+  height: 400px;
+  width: 1100px;
+  /* border: 1px solid red; */
+}
+.b h1 {
+  font-family: "Monoton", sans-serif;
+  color: white;
+  font-size: 90px;
+  font-weight: lighter;
+  text-align: center;
+  word-spacing: 20px;
+  line-height: 130px;
+}
+.a h1 {
+  font-family: "Monoton", sans-serif;
+  color: white;
+  font-size: 90px;
+  font-weight: lighter;
+  text-align: center;
+  word-spacing: 20px;
+}
+.c h1 {
+  font-family: "Monoton", sans-serif;
+  color: white;
+  font-size: 90px;
+  font-weight: lighter;
+  text-align: center;
+  word-spacing: 20px;
+}
+#btn1 {
+  height: 50px;
+  width: 140px;
+  background-color: rgb(255, 163, 35);
+  border: 1px solid rgb(255, 163, 35);
+  color: white;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 17px;
+  cursor: pointer;
+  /* margin-left: 35%; */
+  margin-top: 50px;
+}
+#btn1:hover {
+  background-color: transparent;
+  color: rgb(255, 163, 35);
+}
+#btn2 {
+  height: 50px;
+  width: 140px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 17px;
+  cursor: pointer;
+}
+#btn2:hover {
+  background-color: white;
+  color: rgb(255, 163, 35);
+}
+.menu span {
+  color: white;
+  font-size: 20px;
+}
+.menu {
+  height: 100%;
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  display: none;
+}
+.menu .fa-bars {
+  color: white;
+  font-size: 20px;
+}
+/* section a1 is start */
+
+#a1 {
+  height: 900px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about {
+  height: 350px;
+  width: 50%;
+  position: relative;
+  margin-top: 50px;
+}
+.an-inf {
+  height: 140px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.about h3 {
+  font-family: "Miss Fajardose", cursive;
+  font-size: 95px;
+  color: rgb(255, 163, 35);
+  font-weight: normal;
+  position: absolute;
+}
+.about h1 {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 55px;
+  color: #333333;
+  position: absolute;
+  top: 54px;
+}
+.about p {
+  font-size: 18px;
+  text-align: center;
+  font-family: "Poppins", Arial, sans-serif;
+  color: #666666;
+  padding-top: 40px;
+}
+.abn1 {
+  height: 400px;
+  width: 100%;
+  background-image: url(images/bg_4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 200px;
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.con1,
+.con2,
+.con3,
+.con4 {
+  height: 100%;
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.con1 h1,
+.con2 h1,
+.con3 h1,
+.con4 h1 {
+  font-size: 40px;
+  font-family: "Poppins", Arial, sans-serif;
+}
+.con1 h4,
+.con2 h4,
+.con3 h4,
+.con4 h4 {
+  font-size: 17px;
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: normal;
+}
+
+/* section a1 is over */
+
+/* section a2 is start */
+#a2 {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+.services {
+  height: 600px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.ser {
+  height: 140px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.cater {
+  height: 350px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-self: flex-end;
+}
+.ser h3 {
+  font-family: "Miss Fajardose", cursive;
+  font-size: 95px;
+  color: rgb(255, 163, 35);
+  font-weight: normal;
+  position: absolute;
+}
+.ser h1 {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 55px;
+  color: #333333;
+  position: absolute;
+  top: 55px;
+}
+.service1,
+.service2,
+.service3 {
+  height: 350px;
+  width: 30%;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.service1 h1,
+.service2 h1,
+.service3 h1 {
+  color: #333333;
+  font-family: "Poppins", Arial, sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+.service1 p,
+.service2 p,
+.service3 p {
+  color: #666666;
+  font-family: "Poppins", Arial, sans-serif;
+  text-align: center;
+  margin-top: 30px;
+}
+.birthday {
+  height: 120px;
+  width: 120px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.business {
+  height: 120px;
+  width: 120px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.wedding {
+  height: 120px;
+  width: 120px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+/* section a2 is over */
+
+/* seciton a3 is start */
+#a3 {
+  height: 1600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.our {
+  height: 140px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 50px;
+}
+.our h3 {
+  font-family: "Miss Fajardose", cursive;
+  font-size: 95px;
+  color: rgb(255, 163, 35);
+  font-weight: normal;
+  position: absolute;
+}
+.our h1 {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 55px;
+  color: #333333;
+  position: absolute;
+  top: 58px;
+}
+.menu1 {
+  height: 650px;
+  width: 97%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.minfo {
+  height: 50px;
+  width: 100%;
+}
+.minfo h1 {
+  font-size: 30px;
+  color: #333333;
+  text-align: center;
+  font-weight: 900;
+  font-family: "Poppins", Arial, sans-serif;
+}
+.me1,
+.me2,
+.me3 {
+  height: 100%;
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.dish1,
+.dish2,
+.dish3 {
+  height: 170px;
+  width: 100%;
+  border: 1px dotted black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.d1 {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  background-image: url(images/breakfast-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.d2 {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  background-image: url(images/breakfast-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.d3 {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  background-image: url(images/breakfast-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.d4 {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  background-image: url(images/lunch-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.d5 {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  background-image: url(images/lunch-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.d6 {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  background-image: url(images/lunch-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.d7 {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  background-image: url(images/dinner-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.d8 {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  background-image: url(images/dinner-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.d9 {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  background-image: url(images/dinner-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.rec1,
+.rec2,
+.rec3 {
+  height: 100px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.rec1 h1,
+.rec2 h1,
+.rec3 h1 {
+  font-family: "Poppins", Arial, sans-serif;
+  color: #333333;
+  font-size: 27px;
+}
+.rec1 h3,
+.rec2 h3,
+.rec3 h3 {
+  font-family: "Poppins", Arial, sans-serif;
+  color: #666666;
+  font-weight: lighter;
+  padding-top: 10px;
+}
+.pr1,
+.pr2,
+.pr3 {
+  height: 100px;
+  width: 10%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.pr1 hr,
+.pr2 hr,
+.pr3 hr {
+  width: 70%;
+  border: 2px solid;
+  border-color: rgb(255, 163, 35);
+}
+
+.menu2 {
+  height: 600px;
+  width: 97%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.d10 {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  background-image: url(images/dessert-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.d11 {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  background-image: url(images/dessert-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.d12 {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  background-image: url(images/dessert-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.d13 {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  background-image: url(images/wine-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.d14 {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  background-image: url(images/wine-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.d15 {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  background-image: url(images/wine-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.d16 {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  background-image: url(images/drink-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.d17 {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  background-image: url(images/drink-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.d18 {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  background-image: url(images/drink-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.dish1:hover {
+  background-color: rgb(255, 163, 35);
+  color: white;
+}
+.dish2:hover {
+  background-color: rgb(255, 163, 35);
+  color: white;
+}
+.dish3:hover {
+  background-color: rgb(255, 163, 35);
+  color: white;
+}
+/* section a3 is over */
+
+/* sectiion a4 is start */
+#a4 {
+  height: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.book {
+  height: 700px;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.book1 {
+  height: 630px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.book2 {
+  height: 700px;
+  width: 47%;
+}
+.binfo {
+  height: 140px;
+  width: 100%;
+  position: relative;
+}
+.binfo h3 {
+  font-family: "Miss Fajardose", cursive;
+  font-size: 95px;
+  color: rgb(255, 163, 35);
+  font-weight: normal;
+  position: absolute;
+}
+.binfo h1 {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 55px;
+  color: #333333;
+  position: absolute;
+  top: 55px;
+}
+.input1 {
+  height: 60%;
+  width: 48%;
+}
+.input1 input {
+  height: 50px;
+  width: 400px;
+  font-size: 17px;
+  padding-left: 10px;
+  font-family: "Poppins", Arial, sans-serif;
+}
+.input1 h3 {
+  font-family: "Poppins", Arial, sans-serif;
+  margin-top: 40px;
+}
+
+.input2 {
+  height: 60%;
+  width: 48%;
+}
+.input2 input {
+  height: 50px;
+  width: 400px;
+  font-size: 17px;
+  padding-left: 10px;
+  font-family: "Poppins", Arial, sans-serif;
+}
+.input2 h3 {
+  font-family: "Poppins", Arial, sans-serif;
+  margin-top: 40px;
+}
+select {
+  height: 50px;
+  width: 400px;
+  border: 1px dotted black;
+  font-size: 17px;
+  padding-left: 10px;
+  font-family: "Poppins", Arial, sans-serif;
+}
+.book1 button {
+  height: 60px;
+  width: 250px;
+  background-color: rgb(255, 163, 35);
+  border: 1px solid rgb(255, 163, 35);
+  color: white;
+  cursor: pointer;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 18px;
+  transition: 0.5s;
+}
+.book1 button:hover {
+  background-color: white;
+  color: rgb(255, 163, 35);
+}
+
+/* sectiona a4 is over */
+
+/* seciton a5 is start */
+#a5 {
+  height: 900px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.cf {
+  height: 140px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.cf h3 {
+  font-family: "Miss Fajardose", cursive;
+  font-size: 95px;
+  color: rgb(255, 163, 35);
+  font-weight: normal;
+  position: absolute;
+}
+.cf h1 {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 55px;
+  color: #333333;
+  position: absolute;
+  top: 55px;
+}
+.chefs {
+  height: 600px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+.chef1,
+.chef2,
+.chef3,
+.chef4 {
+  height: 100%;
+  width: 24%;
+}
+.c1img {
+  height: 55%;
+  width: 100%;
+  background-image: url(images/chef-4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.c2img {
+  height: 55%;
+  width: 100%;
+  background-image: url(images/chef-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.c3img {
+  height: 55%;
+  width: 100%;
+  background-image: url(images/chef-3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.c4img {
+  height: 55%;
+  width: 100%;
+  background-image: url(images/chef-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.chef1 h1,
+.chef2 h1,
+.chef3 h1,
+.chef4 h1 {
+  font-family: "Poppins", Arial, sans-serif;
+  color: #333333;
+  font-size: 22px;
+  padding-top: 15px;
+}
+.chef1 h4,
+.chef2 h4,
+.chef3 h4,
+.chef4 h4 {
+  font-family: "Poppins", Arial, sans-serif;
+  color: #666666;
+  font-weight: normal;
+}
+.chef1 p,
+.chef2 p,
+.chef3 p,
+.chef4 p {
+  font-family: "Poppins", Arial, sans-serif;
+  color: #666666;
+  line-height: 27px;
+  padding-top: 30px;
+  font-size: 17px;
+}
+.social {
+  height: 50px;
+  width: 40%;
+  color: rgb(255, 163, 35);
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+/* section a5 is over */
+
+/* section a6 is start */
+#a6 {
+  height: 300px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+}
+.fimg1 {
+  height: 100%;
+  width: 20%;
+  background-image: url(images/insta-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.fimg2 {
+  height: 100%;
+  width: 20%;
+  background-image: url(images/insta-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.fimg3 {
+  height: 100%;
+  width: 20%;
+  background-image: url(images/insta-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.fimg4 {
+  height: 100%;
+  width: 20%;
+  background-image: url(images/insta-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.fimg5 {
+  height: 100%;
+  width: 20%;
+  background-image: url(images/insta-5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* secton a6 is over */
+
+#a7 {
+  height: 800px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.test {
+  height: 130px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.test h3 {
+  font-family: "Miss Fajardose", cursive;
+  font-size: 95px;
+  color: rgb(255, 163, 35);
+  font-weight: normal;
+  position: absolute;
+}
+.test h1 {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 55px;
+  color: #333333;
+  position: absolute;
+  top: 55px;
+}
+.clients {
+  height: 400px;
+  width: 60%;
+  /* border: 1px solid black; */
+  margin-bottom: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.client1,
+.client2,
+.client3,
+.client4 {
+  height: 100%;
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 2px 1.5px 1.5px;
+}
+.client1 p,
+.client2 p,
+.client3 p,
+.client4 p {
+  font-family: "Poppins", Arial, sans-serif;
+  color: #666666;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 30px;
+}
+.client1 h1,
+.client2 h1,
+.client3 h1,
+.client4 h1 {
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 23px;
+  margin-top: 40px;
+}
+.client1 h4,
+.client2 h4,
+.client3 h4,
+.client4 h4 {
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 17px;
+  color: #666666;
+  letter-spacing: 2px;
+  margin-top: 7px;
+}
+.cli1 {
+  height: 120px;
+  width: 120px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-image: url(images/person_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 30px;
+}
+.cli2 {
+  height: 120px;
+  width: 120px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-image: url(images/person_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 30px;
+}
+.cli3 {
+  height: 120px;
+  width: 120px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-image: url(images/person_3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 30px;
+}
+.cli4 {
+  height: 120px;
+  width: 120px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-image: url(images/person_4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 30px;
+}
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* footer is start */
+footer {
+  height: 500px;
+  width: 100%;
+  background-color: #141313;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foo {
+  height: 350px;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.foo1,
+.foo3,
+.foo4 {
+  height: 100%;
+  width: 24%;
+}
+.foo2 {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.foo1 h1,
+.foo2 h1,
+.foo3 h1,
+.foo4 h1 {
+  color: white;
+  font-weight: bolder;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 22px;
+  width: 100%;
+}
+.foo1 p,
+.foo3 p {
+  color: #ffffffb3;
+  font-weight: lighter;
+  font-family: "Poppins", Arial, sans-serif;
+  margin-top: 40px;
+}
+.days {
+  height: 80%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 22px;
+}
+.days span {
+  color: #ffffffb3;
+  font-family: "Poppins", Arial, sans-serif;
+}
+.time {
+  height: 80%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 22px;
+}
+.time span {
+  color: #ffffffb3;
+  font-family: "Poppins", Arial, sans-serif;
+}
+.foo3 input {
+  height: 55px;
+  width: 400px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+  margin-top: 20px;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 17px;
+}
+.foo3 button {
+  height: 55px;
+  width: 400px;
+  text-align: center;
+  background-color: rgb(255, 163, 35);
+  border: 1px solid rgb(255, 163, 35);
+  color: white;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 17px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.ins {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.ins1 {
+  height: 100px;
+  width: 33.33%;
+  background-image: url(images/insta-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+.ins2 {
+  height: 100px;
+  width: 33.33%;
+  background-image: url(images/insta-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+.ins3 {
+  height: 100px;
+  width: 33.33%;
+  background-image: url(images/insta-3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+.ins4 {
+  height: 100px;
+  width: 33.33%;
+  background-image: url(images/insta-4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+.ins5 {
+  height: 100px;
+  width: 33.33%;
+  background-image: url(images/insta-5.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+.ins6 {
+  height: 100px;
+  width: 33.33%;
+  background-image: url(images/insta-6.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}

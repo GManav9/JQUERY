@@ -1,0 +1,1192 @@
+@media (max-width: 980px) {
+  header {
+    height: auto;
+    width: 100%;
+  }
+  .header1 {
+    height: auto;
+    width: 100%;
+  }
+  .head {
+    height: auto;
+    width: 100%;
+    background-color: #000000;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .logo {
+    height: auto;
+    width: 10%;
+  }
+  nav {
+    height: 80px;
+    width: 100%;
+  }
+  nav ul {
+    height: 100%;
+    width: 90%;
+  }
+  nav ul button {
+    width: 420px;
+  }
+  .menu {
+    display: none;
+  }
+  .a,
+  .b,
+  .c {
+    height: 500px;
+    width: 80%;
+    margin-top: 200px;
+  }
+  .a h1,
+  .b h1,
+  .c h1 {
+    font-size: 50px;
+  }
+  .sli2 {
+    height: auto;
+    width: 100%;
+  }
+  .sli3 {
+    height: auto;
+    width: 100%;
+  }
+  #a1 {
+    height: auto;
+    width: 100%;
+  }
+  .about {
+    height: auto;
+    width: 95%;
+  }
+  .an-inf {
+    height: auto;
+    width: 100%;
+  }
+  .about h3 {
+    text-align: center;
+    /* font-size: 60px; */
+  }
+  .about h1 {
+    text-align: center;
+    line-height: 70px;
+    top: 60px;
+  }
+  .about p {
+    margin-top: 170px;
+  }
+  .abn1 {
+    height: auto;
+    width: 100%;
+  }
+  .container {
+    height: auto;
+    flex-direction: column;
+  }
+  .con1,
+  .con2,
+  .con3,
+  .con4 {
+    height: auto;
+    width: 100%;
+    margin-top: 40px;
+  }
+  #a2 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .services {
+    height: auto;
+    width: 100%;
+  }
+  .ser h3 {
+    font-size: 65px;
+  }
+  .ser h1 {
+    font-size: 45px;
+  }
+  .cater {
+    height: auto;
+    width: 100%;
+  }
+  .service1,
+  .service2,
+  .service3 {
+    height: auto;
+    width: 32%;
+  }
+  #a3 {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+  }
+  .our {
+    height: auto;
+    width: 100%;
+  }
+  .our h3 {
+    font-size: 65px;
+  }
+  .our h1 {
+    font-size: 45px;
+  }
+  .menu1 {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 100px;
+  }
+  .me1,
+  .me2,
+  .me3 {
+    height: auto;
+    width: 80%;
+    margin-top: 50px;
+  }
+  .menu2 {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  #a4 {
+    height: auto;
+    width: 100%;
+  }
+  .book {
+    height: auto;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .binfo {
+    width: 70%;
+    margin-top: 20px;
+  }
+  .book1 {
+    height: auto;
+    width: 85%;
+    flex-direction: column;
+  }
+  .book2 {
+    margin-top: 50px;
+    height: 500px;
+    width: 85%;
+    flex-direction: column;
+  }
+  .input1 {
+    height: auto;
+    width: 70%;
+    margin-top: 50px;
+  }
+  .input1 input {
+    width: 500px;
+  }
+  .input2 input {
+    width: 500px;
+  }
+  .input2 {
+    height: auto;
+    width: 70%;
+  }
+  .book1 button {
+    width: 400px;
+    margin-top: 20px;
+  }
+  select {
+    width: 500px;
+  }
+  .bts1 {
+    height: auto;
+    width: 70%;
+  }
+  .bts1 button {
+    width: 90%;
+  }
+
+  #a5 {
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .cf h3 {
+    font-size: 65px;
+  }
+  .cf h1 {
+    font-size: 45px;
+  }
+  .chefs {
+    height: auto;
+    width: 85%;
+    flex-wrap: wrap;
+  }
+  .chef1,
+  .chef2,
+  .chef3,
+  .chef4 {
+    height: auto;
+    width: 46%;
+  }
+  .c1img,
+  .c2img,
+  .c3img,
+  .c4img {
+    height: 350px;
+    width: 100%;
+    background-position: top;
+  }
+  #a6 {
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .fimg1,
+  .fimg2,
+  .fimg3,
+  .fimg4,
+  .fimg5 {
+    height: 300px;
+    width: 31%;
+    margin-top: 50px;
+  }
+  #a7 {
+    height: auto;
+    width: 100%;
+  }
+  .test {
+    height: 130px;
+    width: 95%;
+  }
+  .test h3 {
+    font-size: 65px;
+  }
+  .test h1 {
+    font-size: 45px;
+  }
+  .clients {
+    height: auto;
+    width: 95%;
+  }
+  footer {
+    height: auto;
+    width: 100%;
+  }
+  .foo {
+    height: auto;
+    width: 95%;
+    flex-wrap: wrap;
+  }
+  .foo1,
+  .foo2,
+  .foo3,
+  .foo4 {
+    height: auto;
+    width: 45%;
+    margin-top: 70px;
+  }
+  .foo3 input {
+    width: 350px;
+  }
+  .foo3 button {
+    width: 350px;
+  }
+}
+
+@media (max-width: 720px) {
+  header {
+    height: auto;
+    width: 100%;
+  }
+  .header1 {
+    height: auto;
+    width: 100%;
+  }
+  .head {
+    height: auto;
+    width: 100%;
+    background-color: #000000;
+    flex-wrap: wrap;
+  }
+  .logo {
+    height: auto;
+    width: 40%;
+  }
+  nav {
+    height: 350px;
+    width: 100%;
+    display: none;
+  }
+  nav ul {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    margin-left: 5%;
+  }
+  nav ul button {
+    width: 420px;
+  }
+  .menu {
+    height: auto;
+    width: 30%;
+    display: block;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    right: 0;
+    top: 10px;
+  }
+  .a,
+  .c {
+    height: 500px;
+    width: 80%;
+    margin-top: 200px;
+  }
+  .b{
+    height: 500px;
+    width: 80%;
+    margin-top: 200px;
+  }
+  .butt{
+    margin-bottom: 100px;
+  }
+  .a h1,
+  .b h1,
+  .c h1 {
+    font-size: 50px;
+  }
+  .sli1{
+    height: auto;
+    width: 100%;
+  }
+  .sli2 {
+    height: auto;
+    width: 100%;
+  }
+  .sli3 {
+    height: auto;
+    width: 100%;
+  }
+  #a1 {
+    height: auto;
+    width: 100%;
+  }
+  .about {
+    height: auto;
+    width: 95%;
+  }
+  .an-inf {
+    height: auto;
+    width: 100%;
+  }
+  .about h3 {
+    text-align: center;
+    /* font-size: 60px; */
+  }
+  .about h1 {
+    text-align: center;
+    line-height: 70px;
+    top: 60px;
+  }
+  .about p {
+    margin-top: 170px;
+  }
+  .abn1 {
+    height: auto;
+    width: 100%;
+  }
+  .container {
+    height: auto;
+    flex-direction: column;
+  }
+  .con1,
+  .con2,
+  .con3,
+  .con4 {
+    height: auto;
+    width: 100%;
+    margin-top: 40px;
+  }
+  #a2 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .services {
+    height: auto;
+    width: 100%;
+  }
+  .ser h3 {
+    font-size: 65px;
+  }
+  .ser h1 {
+    font-size: 45px;
+  }
+  .cater {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+  }
+  .service1,
+  .service2,
+  .service3 {
+    height: auto;
+    width: 100%;
+  }
+  #a3 {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+  }
+  .our {
+    height: auto;
+    width: 100%;
+  }
+  .our h3 {
+    font-size: 65px;
+  }
+  .our h1 {
+    font-size: 45px;
+  }
+  .menu1 {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .me1,
+  .me2,
+  .me3 {
+    height: auto;
+    width: 95%;
+    margin-top: 50px;
+  }
+  .menu2 {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  #a4 {
+    height: auto;
+    width: 100%;
+  }
+  .book {
+    height: auto;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .binfo {
+    width: 85%;
+    margin-top: 20px;
+  }
+  .book1 {
+    height: auto;
+    width: 85%;
+    flex-direction: column;
+  }
+  .book2 {
+    margin-top: 50px;
+    height: 500px;
+    width: 85%;
+    flex-direction: column;
+  }
+  .input1 {
+    height: auto;
+    width: 80%;
+    margin-top: 50px;
+  }
+  .input1 input {
+    width: 400px;
+  }
+  .input2 input {
+    width: 400px;
+  }
+  .input2 {
+    height: auto;
+    width: 80%;
+  }
+  .book1 button {
+    width: 400px;
+    margin-top: 20px;
+  }
+  select {
+    width: 400px;
+  }
+  .bts1 {
+    height: auto;
+    width: 80%;
+  }
+  #a5 {
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .cf h3 {
+    font-size: 65px;
+  }
+  .cf h1 {
+    font-size: 45px;
+  }
+  .chefs {
+    height: auto;
+    width: 75%;
+    flex-direction: column;
+  }
+  .chef1,
+  .chef2,
+  .chef3,
+  .chef4 {
+    height: auto;
+    width: 100%;
+  }
+  .c1img,
+  .c2img,
+  .c3img,
+  .c4img {
+    height: 350px;
+    width: 100%;
+    background-position: top;
+  }
+  #a6 {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+  }
+  .fimg1,
+  .fimg2,
+  .fimg3,
+  .fimg4,
+  .fimg5 {
+    height: 300px;
+    width: 100%;
+    margin-top: 50px;
+  }
+  #a7 {
+    height: auto;
+    width: 100%;
+  }
+  .test {
+    height: 130px;
+    width: 95%;
+  }
+  .test h3 {
+    font-size: 65px;
+  }
+  .test h1 {
+    font-size: 45px;
+  }
+  .clients {
+    height: auto;
+    width: 95%;
+  }
+  footer {
+    height: auto;
+    width: 100%;
+  }
+  .foo {
+    height: auto;
+    width: 95%;
+    flex-direction: column;
+  }
+  .foo1,
+  .foo2,
+  .foo3,
+  .foo4 {
+    
+    height: auto;
+    width: 100%;
+    margin-top: 70px;
+  }
+  .foo3 input {
+    width: 600px;
+  }
+  .foo3 button {
+    width: 600px;
+  }
+}
+
+@media (max-width: 576px) {
+  header {
+    height: auto;
+    width: 100%;
+  }
+  .header1 {
+    height: auto;
+    width: 100%;
+  }
+  .head {
+    height: auto;
+    width: 100%;
+    background-color: #000000;
+    flex-wrap: wrap;
+  }
+  .logo {
+    height: auto;
+    width: 40%;
+  }
+  nav {
+    height: 350px;
+    width: 100%;
+    display: none;
+  }
+  nav ul {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    margin-left: 5%;
+  }
+  nav ul button {
+    width: 420px;
+  }
+  .menu {
+    height: auto;
+    width: 30%;
+    display: block;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    right: 0;
+    top: 10px;
+  }
+  .a,
+  .b,
+  .c {
+    height: 500px;
+    width: 80%;
+    margin-top: 200px;
+  }
+  .a h1,
+  .b h1,
+  .c h1 {
+    font-size: 40px;
+  }
+  .sli2 {
+    height: auto;
+    width: 100%;
+  }
+  .sli3 {
+    height: auto;
+    width: 100%;
+  }
+  #a1 {
+    height: auto;
+    width: 100%;
+  }
+  .about {
+    height: auto;
+    width: 95%;
+  }
+  .an-inf {
+    height: auto;
+    width: 100%;
+  }
+  .about h3 {
+    text-align: center;
+    /* font-size: 60px; */
+  }
+  .about h1 {
+    text-align: center;
+    line-height: 70px;
+    top: 60px;
+  }
+  .about p {
+    margin-top: 170px;
+  }
+  .abn1 {
+    height: auto;
+    width: 100%;
+  }
+  .container {
+    height: auto;
+    flex-direction: column;
+  }
+  .con1,
+  .con2,
+  .con3,
+  .con4 {
+    height: auto;
+    width: 100%;
+    margin-top: 40px;
+  }
+  #a4 {
+    height: auto;
+    width: 100%;
+  }
+  .book {
+    height: auto;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .binfo {
+    width: 85%;
+  }
+  .book1 {
+    height: auto;
+    width: 85%;
+    flex-direction: column;
+  }
+  .book2 {
+    margin-top: 50px;
+    height: 500px;
+    width: 85%;
+    flex-direction: column;
+  }
+  .input1 {
+    height: auto;
+    width: 85%;
+    margin-top: 50px;
+  }
+  .input1 input {
+    width: 400px;
+  }
+  .input2 input {
+    width: 400px;
+  }
+  .input2 {
+    height: auto;
+    width: 85%;
+  }
+  .book1 button {
+    width: 400px;
+    margin-top: 20px;
+  }
+  select {
+    width: 400px;
+  }
+  .bts1 {
+    height: auto;
+    width: 85%;
+  }
+  #a5 {
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .cf h3 {
+    font-size: 65px;
+  }
+  .cf h1 {
+    font-size: 45px;
+  }
+  .chefs {
+    height: auto;
+    width: 85%;
+    flex-direction: column;
+  }
+  .chef1,
+  .chef2,
+  .chef3,
+  .chef4 {
+    height: auto;
+    width: 100%;
+  }
+  .c1img,
+  .c2img,
+  .c3img,
+  .c4img {
+    height: 350px;
+    width: 100%;
+    background-position: top;
+  }
+  #a6 {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+  }
+  .fimg1,
+  .fimg2,
+  .fimg3,
+  .fimg4,
+  .fimg5 {
+    height: 300px;
+    width: 100%;
+    margin-top: 50px;
+  }
+  #a7 {
+    height: auto;
+    width: 100%;
+  }
+  .test {
+    height: 130px;
+    width: 95%;
+  }
+  .test h3 {
+    font-size: 65px;
+  }
+  .test h1 {
+    font-size: 45px;
+  }
+  .clients {
+    height: auto;
+    width: 95%;
+  }
+  footer {
+    height: auto;
+    width: 100%;
+  }
+  .foo {
+    height: auto;
+    width: 95%;
+    flex-direction: column;
+  }
+  .foo1,
+  .foo2,
+  .foo3,
+  .foo4 {
+    height: auto;
+    width: 100%;
+    margin-top: 70px;
+  }
+  .foo3 input {
+    width: 500px;
+  }
+  .foo3 button {
+    width: 500px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    height: auto;
+    width: 100%;
+  }
+  .header1 {
+    height: auto;
+    width: 100%;
+  }
+  .head {
+    height: auto;
+    width: 100%;
+    background-color: #000000;
+    flex-wrap: wrap;
+  }
+  .logo {
+    height: auto;
+    width: 40%;
+  }
+  nav {
+    height: 300px;
+    width: 100%;
+    display: none;
+  }
+  nav ul {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    margin-left: 5%;
+  }
+  nav ul button {
+    width: 420px;
+  }
+  .menu {
+    height: auto;
+    width: 30%;
+    display: block;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    right: 0;
+    top: 10px;
+  }
+  .b,
+  .c {
+    height: 500px;
+    width: 80%;
+    margin-top: 200px;
+  }
+  .a{
+    height: 500px;
+    width: 80%;
+    margin-top: 200px;
+  }
+  .a h1,
+  .b h1,
+  .c h1 {
+    font-size: 40px;
+  }
+  .sli1 {
+    height: auto;
+    width: 100%;
+  }
+  .sli2 {
+    height: auto;
+    width: 100%;
+  }
+  .sli3 {
+    height: auto;
+    width: 100%;
+  }
+  #a1 {
+    height: auto;
+    width: 100%;
+  }
+  .about {
+    height: auto;
+    width: 95%;
+  }
+  .an-inf {
+    height: auto;
+    width: 100%;
+  }
+  .about h3 {
+    text-align: center;
+    /* font-size: 60px; */
+  }
+  .about h1 {
+    text-align: center;
+    line-height: 70px;
+    top: 60px;
+  }
+  .about p {
+    margin-top: 170px;
+  }
+  .abn1 {
+    height: auto;
+    width: 100%;
+  }
+  .container {
+    height: auto;
+    flex-direction: column;
+  }
+  .con1,
+  .con2,
+  .con3,
+  .con4 {
+    height: auto;
+    width: 100%;
+    margin-top: 40px;
+  }
+  #a2 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .services {
+    height: auto;
+    width: 100%;
+  }
+  .ser h3 {
+    font-size: 65px;
+  }
+  .ser h1 {
+    font-size: 45px;
+  }
+  .cater {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+  }
+  .service1,
+  .service2,
+  .service3 {
+    height: auto;
+    width: 100%;
+  }
+  #a3 {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+  }
+  .our {
+    height: auto;
+    width: 100%;
+  }
+  .our h3 {
+    font-size: 65px;
+  }
+  .our h1 {
+    font-size: 45px;
+  }
+  .menu1 {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .me1,
+  .me2,
+  .me3 {
+    height: auto;
+    width: 95%;
+    margin-top: 50px;
+  }
+  .menu2 {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .dish1,
+  .dish2,
+  .dish3 {
+    height: 210px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .rec1,
+  .rec2,
+  .rec3 {
+    height: 130px;
+  }
+  #a4 {
+    height: auto;
+    width: 100%;
+  }
+  .book {
+    height: auto;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .binfo {
+    width: 95%;
+  }
+  .book1 {
+    height: auto;
+    width: 95%;
+    flex-direction: column;
+  }
+  .book2 {
+    margin-top: 50px;
+    height: 500px;
+    width: 95%;
+    flex-direction: column;
+  }
+  .input1 {
+    height: auto;
+    width: 95%;
+    margin-top: 50px;
+  }
+  .input1 input {
+    width: 400px;
+  }
+  .input2 input {
+    width: 400px;
+  }
+  .input2 {
+    height: auto;
+    width: 95%;
+  }
+  .bts1 {
+    width: 95%;
+  }
+  select {
+    width: 400px;
+  }
+  .book1 button {
+    width: 400px;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  #a5 {
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .cf h3 {
+    font-size: 65px;
+  }
+  .cf h1 {
+    font-size: 45px;
+  }
+  .chefs {
+    height: auto;
+    width: 95%;
+    flex-direction: column;
+  }
+  .chef1,
+  .chef2,
+  .chef3,
+  .chef4 {
+    height: auto;
+    width: 100%;
+  }
+  .c1img,
+  .c2img,
+  .c3img,
+  .c4img {
+    height: 350px;
+    width: 100%;
+    background-position: top;
+  }
+  .clients {
+    height: auto;
+    width: 100%;
+  }
+  #a6 {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+  }
+  .fimg1,
+  .fimg2,
+  .fimg3,
+  .fimg4,
+  .fimg5 {
+    height: 300px;
+    width: 100%;
+    margin-top: 50px;
+  }
+  #a7 {
+    height: auto;
+    width: 100%;
+  }
+  .test {
+    height: 130px;
+    width: 95%;
+  }
+  .test h3 {
+    font-size: 65px;
+  }
+  .test h1 {
+    font-size: 45px;
+  }
+  footer {
+    height: auto;
+    width: 100%;
+  }
+  .foo {
+    height: auto;
+    width: 95%;
+    flex-direction: column;
+  }
+  .foo1,
+  .foo2,
+  .foo3,
+  .foo4 {
+    height: auto;
+    width: 100%;
+    margin-top: 70px;
+  }
+  .foo3 input {
+    width: 400px;
+  }
+  .foo3 button {
+    width: 400px;
+  }
+}
