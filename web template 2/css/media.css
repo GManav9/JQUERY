@@ -1,0 +1,1071 @@
+@media (max-width: 980px) {
+  .swiper-container{
+    height: auto;
+    width: 100%;
+  }
+  .swiper-slide{
+    height: auto;
+    width: 100%;
+  }
+  .section1 {
+    height: auto;
+    width: 100%;
+  }
+  .section2 {
+    height: auto;
+    width: 100%;
+  }
+  .header {
+    height: auto;
+    width: 100%;
+  }
+  .head {
+    height: auto;
+    /* flex-direction: column; */
+    width: 90%;
+  }
+  .logo {
+    height: auto;
+    width: 30%;
+  }
+  .virtual {
+    height: auto;
+    width: 100%;
+  }
+  .v1 {
+    height: auto;
+    width: 90%;
+  }
+  .v1 h1 {
+    font-size: 30px;
+  }
+  .v1 p {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 40px;
+  }
+  .v1 button {
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  nav {
+    height: auto;
+    width: 100%;
+    display: block;
+  }
+  nav ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 5%;
+  }
+  .menu {
+    display: none;
+  }
+  .icons {
+    height: auto;
+    width: 100%;
+  }
+  .i1 {
+    height: auto;
+    width: 70%;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+  }
+  .icon1,
+  .icon2,
+  .icon3 {
+    height: 250px;
+    width: 90%;
+  }
+  .per1,
+  .per2,
+  .per3 {
+    height: 110px;
+    width: 110px;
+  }
+  #a1 {
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .about {
+    height: auto;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+  }
+  .ab1 {
+    height: 500px;
+    width: 75%;
+  }
+  .ab2 {
+    height: auto;
+    width: 75%;
+    margin-top: 30px;
+  }
+  #a2 {
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .some {
+    height: auto;
+    width: 95%;
+    flex-direction: column;
+  }
+  .s1,
+  .s2,
+  .s3,
+  .s4,
+  .s5 {
+    height: 110px;
+    width: 95%;
+  }
+
+  #a3 {
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .our {
+    height: auto;
+    width: 60%;
+  }
+  .projects {
+    height: auto;
+    width: 95%;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+  }
+  .proj1,
+  .proj2,
+  .proj3,
+  .proj4 {
+    height: 600px;
+    width: 65%;
+    margin-top: 20px;
+  }
+
+  #a5 {
+    height: auto;
+    margin-top: 50px;
+    width: 100%;
+  }
+  .cf {
+    height: auto;
+    width: 65%;
+  }
+  .cf h1 {
+    font-size: 40px;
+  }
+  .cf p {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .chefs {
+    height: auto;
+    width: 95%;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .chef1,
+  .chef2,
+  .chef3,
+  .chef4 {
+    height: auto;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .c1img,
+  .c2img,
+  .c3img,
+  .c4img {
+    height: 430px;
+    width: 100%;
+  }
+  .chef1 p,
+  .chef2 p,
+  .chef3 p,
+  .chef4 p {
+    width: 80%;
+    font-size: 18px;
+  }
+  .social {
+    margin-left: 0;
+    font-size: 22px;
+  }
+
+  #a6 {
+    height: auto;
+    width: 100%;
+  }
+  .about {
+    height: auto;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+  }
+  .ab12 {
+    height: auto;
+    width: 75%;
+    margin-top: 20px;
+  }
+  .ab11 {
+    height: 600px;
+    width: 75%;
+    margin-top: 30px;
+  }
+  footer {
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .foo {
+    height: auto;
+    width: 95%;
+    flex-wrap: wrap;
+  }
+  .foo1 {
+    height: 200px;
+    width: 40%;
+    margin-top: 10px;
+  }
+  .foo2,
+  .foo3,
+  .foo4 {
+    height: 250px;
+    width: 40%;
+    margin-top: 15px;
+  }
+  .los {
+    height: 250px;
+    width: 8%;
+    margin-top: 20px;
+  }
+  .los2 {
+    height: 250px;
+    width: 70%;
+    margin-top: 20px;
+  }
+  #h62 {
+    margin-top: 27px;
+  }
+}
+
+@media (max-width: 720px) {
+  .section1 {
+    /* height: auto; */
+    width: 100%;
+  }
+  .header {
+    height: auto;
+    width: 100%;
+  }
+  .head {
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+  }
+  .logo {
+    height: auto;
+    width: 30%;
+  }
+  .virtual {
+    height: auto;
+    width: 100%;
+  }
+  .v1 {
+    height: auto;
+    width: 90%;
+  }
+  .v1 h1 {
+    font-size: 30px;
+  }
+  .v1 p {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 40px;
+  }
+  .v1 button {
+    margin-top: 40px;
+  }
+  nav {
+    height: 200px;
+    width: 100%;
+    display: none;
+  }
+  nav ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 5%;
+  }
+  .menu{
+    position: fixed;
+    top: 5px;
+    right: 60px;
+    display: block;
+  }
+  /* .menu {
+    height: auto;
+    width: 40%;
+    display: block;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    right: 0;
+    top: 10px;
+  } */
+  .icons {
+    height: auto;
+    width: 100%;
+  }
+  .i1 {
+    height: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+  .icon1,
+  .icon2,
+  .icon3 {
+    height: 250px;
+    width: 95%;
+  }
+  .per1,
+  .per2,
+  .per3 {
+    height: 110px;
+    width: 110px;
+  }
+  #a1 {
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .about {
+    height: auto;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+  }
+  .ab1 {
+    height: 500px;
+    width: 85%;
+  }
+  .ab2 {
+    height: auto;
+    width: 85%;
+    margin-top: 30px;
+  }
+  #a2 {
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .some {
+    height: auto;
+    width: 95%;
+    flex-direction: column;
+  }
+  .s1,
+  .s2,
+  .s3,
+  .s4,
+  .s5 {
+    height: 110px;
+    width: 95%;
+  }
+
+  #a3 {
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .our {
+    height: auto;
+    width: 75%;
+  }
+  .projects {
+    height: auto;
+    width: 95%;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+  }
+  .proj1,
+  .proj2,
+  .proj3,
+  .proj4 {
+    height: 600px;
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  #a5 {
+    height: auto;
+    margin-top: 50px;
+    width: 100%;
+  }
+  .cf {
+    height: auto;
+    width: 75%;
+  }
+  .cf h1 {
+    font-size: 40px;
+  }
+  .cf p {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .chefs {
+    height: auto;
+    width: 95%;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .chef1,
+  .chef2,
+  .chef3,
+  .chef4 {
+    height: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .c1img,
+  .c2img,
+  .c3img,
+  .c4img {
+    height: 430px;
+    width: 100%;
+  }
+  .chef1 p,
+  .chef2 p,
+  .chef3 p,
+  .chef4 p {
+    width: 80%;
+    font-size: 18px;
+  }
+  .social {
+    margin-left: 0;
+    font-size: 22px;
+  }
+
+  #a6 {
+    height: auto;
+    width: 100%;
+  }
+  .about {
+    height: auto;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+  }
+  .ab12 {
+    height: auto;
+    width: 85%;
+    margin-top: 20px;
+  }
+  .ab11 {
+    height: 500px;
+    width: 95%;
+    margin-top: 30px;
+  }
+  footer {
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .foo {
+    height: auto;
+    width: 95%;
+    flex-wrap: wrap;
+  }
+  .foo1 {
+    height: 200px;
+    width: 40%;
+    margin-top: 10px;
+  }
+  .foo2,
+  .foo3,
+  .foo4 {
+    height: 250px;
+    width: 40%;
+    margin-top: 15px;
+  }
+  .los {
+    height: 250px;
+    width: 10%;
+    margin-top: 20px;
+  }
+  .los2 {
+    height: 250px;
+    width: 70%;
+    margin-top: 20px;
+  }
+  #h62 {
+    margin-top: 27px;
+  }
+}
+
+@media (max-width: 576px) {
+  .section1 {
+    /* height: auto; */
+    width: 100%;
+  }
+  .header {
+    height: auto;
+    width: 100%;
+  }
+  .head {
+    height: auto;
+    width: 100%;
+  }
+  .logo {
+    height: auto;
+    width: 30%;
+  }
+  .virtual {
+    height: auto;
+    width: 100%;
+  }
+  .v1 {
+    height: auto;
+    width: 90%;
+  }
+  .v1 h1 {
+    font-size: 30px;
+  }
+  .v1 p {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 40px;
+  }
+  .v1 button {
+    margin-top: 40px;
+  }
+  nav {
+    height: 200px;
+    width: 100%;
+    display: none;
+  }
+  nav ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 5%;
+  }
+  /* .menu {
+    height: auto;
+    width: 40%;
+    display: block;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    right: 0;
+    top: 10px;
+  } */
+  .icons {
+    height: auto;
+    width: 100%;
+  }
+  .i1 {
+    height: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  .icon1,
+  .icon2,
+  .icon3 {
+    height: 250px;
+    width: 95%;
+  }
+  .per1,
+  .per2,
+  .per3 {
+    height: 110px;
+    width: 110px;
+  }
+  #a1 {
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .about {
+    height: auto;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+  }
+  .ab1 {
+    height: 500px;
+    width: 95%;
+  }
+  .ab2 {
+    height: auto;
+    width: 95%;
+    margin-top: 30px;
+  }
+  #a2 {
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .some {
+    height: auto;
+    width: 95%;
+    flex-direction: column;
+  }
+  .s1,
+  .s2,
+  .s3,
+  .s4,
+  .s5 {
+    height: 110px;
+    width: 95%;
+  }
+
+  #a3 {
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .our {
+    height: auto;
+    width: 90%;
+  }
+  .projects {
+    height: auto;
+    width: 95%;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+  }
+  .proj1,
+  .proj2,
+  .proj3,
+  .proj4 {
+    height: 550px;
+    width: 95%;
+    margin-top: 20px;
+  }
+
+  #a5 {
+    height: auto;
+    margin-top: 50px;
+    width: 100%;
+  }
+  .cf {
+    height: auto;
+    width: 95%;
+  }
+  .cf h1 {
+    font-size: 40px;
+  }
+  .cf p {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .chefs {
+    height: auto;
+    width: 95%;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .chef1,
+  .chef2,
+  .chef3,
+  .chef4 {
+    height: auto;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .c1img,
+  .c2img,
+  .c3img,
+  .c4img {
+    height: 400px;
+    width: 100%;
+  }
+  .chef1 p,
+  .chef2 p,
+  .chef3 p,
+  .chef4 p {
+    width: 80%;
+    font-size: 18px;
+  }
+  .social {
+    margin-left: 0;
+    font-size: 22px;
+  }
+
+  #a6 {
+    height: auto;
+    width: 100%;
+  }
+  .about {
+    height: auto;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+  }
+  .ab12 {
+    height: auto;
+    width: 95%;
+    margin-top: 20px;
+  }
+  .ab11 {
+    height: 500px;
+    width: 95%;
+    margin-top: 30px;
+  }
+  footer {
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .foo {
+    height: auto;
+    width: 95%;
+    flex-direction: column;
+  }
+  .foo1 {
+    height: 200px;
+    width: 95%;
+    margin-top: 10px;
+  }
+  .foo2,
+  .foo3,
+  .foo4 {
+    height: 250px;
+    width: 95%;
+    margin-top: 15px;
+  }
+  .los {
+    height: 250px;
+    width: 5%;
+  }
+  .los2 {
+    height: 250px;
+    width: 50%;
+  }
+  #h62 {
+    margin-top: 27px;
+  }
+}
+
+@media (max-width: 480px) {
+  .swiper-container{
+    height: auto;
+    width: 100%;
+  }
+  .swiper-slide{
+    height: auto;
+    width: 100%;
+  }
+  .section1 {
+    height: auto;
+    width: 100%;
+  }
+  .section2 {
+    height: auto;
+    width: 100%;
+  }
+  .header {
+    height: auto;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .head {
+    height: auto;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .logo {
+    height: auto;
+    width: 30%;
+  }
+  .virtual {
+    height: auto;
+    width: 100%;
+  }
+  .v1 {
+    height: auto;
+    width: 90%;
+  }
+  .v1 h1 {
+    font-size: 30px;
+  }
+  .v1 p {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 40px;
+  }
+  .v1 button {
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  nav {
+    height: 200px;
+    width: 100%;
+    
+    /* display: none; */
+  }
+  nav ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 5%;
+  }
+  /* .menu {
+    height: auto;
+    width: 40%;
+    display: block;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    right: 0;
+    top: 10px;
+  } */
+  .icons {
+    height: auto;
+    width: 100%;
+  }
+  .i1 {
+    height: auto;
+    width: 90%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  .icon1,
+  .icon2,
+  .icon3 {
+    height: 250px;
+    width: 95%;
+  }
+  .per1,
+  .per2,
+  .per3 {
+    height: 110px;
+    width: 110px;
+  }
+  #a1 {
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .about {
+    height: auto;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+  }
+  .ab1 {
+    height: 500px;
+    width: 95%;
+  }
+  .ab2 {
+    height: auto;
+    width: 95%;
+    margin-top: 30px;
+  }
+  #a2 {
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .some {
+    height: auto;
+    width: 95%;
+    flex-direction: column;
+  }
+  .s1,
+  .s2,
+  .s3,
+  .s4,
+  .s5 {
+    height: 110px;
+    width: 95%;
+  }
+
+  #a3 {
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .our {
+    height: auto;
+    width: 90%;
+  }
+  .projects {
+    height: auto;
+    width: 95%;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+  }
+  .proj1,
+  .proj2,
+  .proj3,
+  .proj4 {
+    height: 550px;
+    width: 95%;
+    margin-top: 20px;
+  }
+
+  #a5 {
+    height: auto;
+    margin-top: 50px;
+    width: 100%;
+  }
+  .cf {
+    height: auto;
+    width: 95%;
+  }
+  .cf h1 {
+    font-size: 40px;
+  }
+  .cf p {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .chefs {
+    height: auto;
+    width: 95%;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .chef1,
+  .chef2,
+  .chef3,
+  .chef4 {
+    height: auto;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .c1img,
+  .c2img,
+  .c3img,
+  .c4img {
+    height: 400px;
+    width: 100%;
+  }
+  .chef1 p,
+  .chef2 p,
+  .chef3 p,
+  .chef4 p {
+    width: 80%;
+    font-size: 18px;
+  }
+  .social {
+    margin-left: 0;
+    font-size: 22px;
+  }
+
+  #a6 {
+    height: auto;
+    width: 100%;
+  }
+  .about {
+    height: auto;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+  }
+  .ab12 {
+    height: auto;
+    width: 95%;
+    margin-top: 20px;
+  }
+  .ab11 {
+    height: 500px;
+    width: 95%;
+    margin-top: 30px;
+  }
+  footer {
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .foo {
+    height: auto;
+    width: 95%;
+    flex-direction: column;
+  }
+  .foo1 {
+    height: 200px;
+    width: 95%;
+    margin-top: 10px;
+  }
+  .foo2,
+  .foo3,
+  .foo4 {
+    height: 250px;
+    width: 95%;
+    margin-top: 15px;
+  }
+  .los {
+    height: 250px;
+    width: 5%;
+  }
+  .los2 {
+    height: 250px;
+    width: 50%;
+  }
+  #h62 {
+    margin-top: 27px;
+  }
+}
