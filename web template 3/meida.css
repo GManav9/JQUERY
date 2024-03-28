@@ -1,0 +1,1235 @@
+@media(max-width:980px){
+    #a1{
+        height: 800px;
+        width: 100%;
+    }
+    .header{
+        height: auto;
+        width: 100%;
+    }
+    .head{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    nav{
+        height: auto; 
+        width: 100%;
+        display: block;
+    }
+    .logo{
+        height: auto;
+        width: 15%;
+        margin-left: 50px;
+    }
+    .menu{
+        width: 15%;
+        height: auto;
+        position: fixed;
+        right: 30px;
+        top: 0;
+        display: none;
+    }
+    .science{
+        height: 500px;
+        width: 90%;
+        margin-top: 200px;
+        margin-left: 0;
+    }
+    .science h1{
+        font-size: 55px;
+    }
+    .science h2{
+        font-size: 20px;
+    }
+    .science button{
+        height: 50px;
+        width: 200px;
+        font-size: 15px;
+        margin-left: 680px;
+    }
+    #a2{
+        height: 800px;
+        width: 100%;
+        background-size: cover;
+    }
+    .header{
+        height: auto;
+        width: 100%;
+    }
+    .head{
+        height: auto;
+        width: 100%;
+    }
+    .science1{
+        height: 300px;
+        width: 100%;
+        margin-bottom: 200px;
+    }
+    .science1 h1{
+        font-size: 40px;
+    }
+    .science1 #h0{
+        font-size: 45px;
+    }
+    .row{
+        height: auto;
+        width: 95%;
+    }
+    .science1 h2{
+        font-size: 20px;
+    }
+    .science1 button{
+        height: 50px;
+        width: 160px;
+        font-size: 16px;
+    }
+    #a3{
+        height: auto;
+        width: 100%;
+    }
+    .about{
+        height: auto;
+        width: 90%;
+        flex-direction: column;
+    }
+    .abn1{
+        height: auto;
+        width: 90%;
+    }
+    .abn1 h3{
+        font-size: 22px;
+    }
+    .abn1 h1{
+        font-size: 40px;
+    }
+    .abn1 p{
+        font-size: 18px;
+    }
+    .abn1 button{
+        height: 50px;
+        width: 160px;
+        font-size: 17px;
+    }
+    .abn2{
+        height: auto;
+        width: 80%;
+        margin-top: 50px;
+    }
+    .abn2 img{
+        height: 85%;
+        width: 85%;
+    }
+    .cos{
+        height: auto;
+        width: 95%;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .co1,.co2,.co3,.co4,.co5{
+        height: auto;
+        width: 45%;
+        margin-top: 20px;
+    }
+    #a4{
+        height: auto;
+        width: 100%;
+    }
+    .speak{
+        height: auto;
+        width: 85%;
+        margin-top: 25px;
+    }
+    .speak h3{
+        font-size: 25px;
+    }
+    .speak h1{
+        font-size: 40px;
+    }
+    .speakers{
+        height: auto;
+        width: 85%;
+        flex-wrap: wrap;
+    }
+    .speaker1,.speaker2,.speaker3,.speaker4,.speaker5,.speaker6,.speaker6,.speaker7,.speaker8{
+        height: auto;
+        width: 48%;
+        margin-top: 20px;
+    }
+    #a4 button{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #a5{
+        height: auto;
+        width: 100%;
+    }
+    .timetable{
+        height: auto;
+        width: 95%;
+    }
+    .timetable h3{
+        font-size: 22px;
+    }
+    .timetable h1{
+        font-size: 35px;
+    }
+    .details{
+        height: auto;
+        width: 95%;
+    }
+    .detail1,.detail2,.detail3,.detail4{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .d1{
+        height: 100%;
+        width: 100%;
+    }
+    .po1{
+        height: 90px;
+        width: 90px;
+        margin-top: 20px;
+    }
+    .po2{
+        height: 90px;
+        width: 90px;
+        margin-top: 20px;
+    }
+    .po3{
+        height: 90px;
+        width: 90px;
+        margin-top: 20px;
+    }
+    .po4{
+        height: 90px;
+        width: 90px;
+        margin-top: 20px;
+    }
+    .d2{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .d2 h1{
+        font-size: 25px;
+    }
+    .d2 h3{
+        font-size: 15px;
+    }
+    .d3{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .d4{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .d4 button{
+        height: 40px;
+        width: 150px;
+        font-size: 14px;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    #btn2{
+        height: 45px;
+        width: 250px;
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    #a6{
+        height: auto;
+        width: 100%;
+    }
+    .partners{
+        height: auto;
+        width: 85%;
+        margin-top: 20px;
+    }
+    .partners h3{
+        font-size: 22px;
+    }
+    .partners h1{
+        font-size: 35px;
+    }
+    .brands{
+        height: auto;
+        width: 85%;
+        flex-wrap: wrap;
+    }
+    .brand1,.brand2,.brand3,.brand4,.brand5,.brand6,.brand7,.brand8{
+        height: 200px;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    footer{
+        height: auto;
+        width: 100%;
+    }
+    .foo{
+        height: auto;
+        width: 95%;
+        flex-wrap: wrap;
+    }
+    .foo1,.foo2,.foo3,.foo4{
+        height: auto;
+        width: 45%;
+        margin-top: 40px;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media(max-width:720px){
+    #a1{
+        height: 800px;
+        width: 100%;
+    }
+    .header{
+        height: auto;
+        width: 100%;
+    }
+    .head{
+        height: auto;
+        width: 100%;
+    }
+    .logo{
+        height: 50px;
+        width: 50%;
+        margin-right: 500px;
+    }
+    nav{
+        display: none;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .menu{
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: block;
+    }
+    .menu .fa-bars-staggered{
+        margin-top: 10px;
+    }
+    /* nav{
+        height: auto; 
+        width: 100%;
+        display: none;
+    }
+    .logo{
+        height: auto;
+        width: 15%;
+        margin-left: 50px;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .menu{
+        width: 15%;
+        height: auto;
+        position: fixed;
+        right: 30px;
+        top: 0;
+        display: block  ;
+    } */
+    .science{
+        height: 500px;
+        width: 90%;
+        margin-top: 200px;
+        margin-left: 0;
+    }
+    .science h1{
+        font-size: 55px;
+    }
+    .science h2{
+        font-size: 20px;
+    }
+    .science button{
+        height: 50px;
+        width: 200px;
+        font-size: 15px;
+        margin-left: 450px;
+    }
+    #a2{
+        height: 800px;
+        width: 100%;
+    }
+    .header{
+        height: auto;
+        width: 100%;
+    }
+    .head{
+        height: auto;
+        width: 100%;
+    }
+    .science1{
+        height: 300px;
+        width: 100%;
+        margin-bottom: 200px;
+    }
+    .science1 h1{
+        font-size: 35px;
+    }
+    .science1 #h0{
+        font-size: 45px;
+    }
+    .row{
+        height: auto;
+        width: 95%;
+    }
+    .science1 h2{
+        font-size: 20px;
+    }
+    .science1 button{
+        height: 45px;
+        width: 160px;
+        font-size: 16px;
+    }
+    #a3{
+        height: auto;
+        width: 100%;
+    }
+    .about{
+        height: auto;
+        width: 95%;
+        flex-direction: column;
+    }
+    .abn1{
+        height: auto;
+        width: 90%;
+    }
+    .abn1 h3{
+        font-size: 18px;
+    }
+    .abn1 h1{
+        font-size: 30px;
+    }
+    .abn1 p{
+        font-size: 16px;
+    }
+    .abn1 button{
+        height: 40px;
+        width: 140px;
+        font-size: 15px;
+    }
+    .abn2{
+        height: auto;
+        width: 85%;
+        margin-top: 50px;
+    }
+    .abn2 img{
+        height: 85%;
+        width: 85%;
+    }
+    .cos{
+        height: auto;
+        width: 95%;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .co1,.co2,.co3,.co4,.co5{
+        height: auto;
+        width: 45%;
+        margin-top: 20px;
+    }
+    #a4{
+        height: auto;
+        width: 100%;
+    }
+    .speak{
+        height: auto;
+        width: 85%;
+        margin-top: 25px;
+    }
+    .speak h3{
+        font-size: 25px;
+    }
+    .speak h1{
+        font-size: 40px;
+    }
+    .speakers{
+        height: auto;
+        width: 80%;
+        flex-direction: column;
+    }
+    .speaker1,.speaker2,.speaker3,.speaker4,.speaker5,.speaker6,.speaker6,.speaker7,.speaker8{
+        height: auto;
+        width: 85%;
+        margin-top: 20px;
+    }
+    #a4 button{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #a5{
+        height: auto;
+        width: 100%;
+    }
+    .timetable{
+        height: auto;
+        width: 95%;
+    }
+    .timetable h3{
+        font-size: 22px;
+    }
+    .timetable h1{
+        font-size: 35px;
+    }
+    .details{
+        height: auto;
+        width: 90%;
+    }
+    .detail1,.detail2,.detail3,.detail4{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .d1{
+        height: 100%;
+        width: 100%;
+    }
+    .po1{
+        height: 90px;
+        width: 90px;
+        margin-top: 20px;
+    }
+    .po2{
+        height: 90px;
+        width: 90px;
+        margin-top: 20px;
+    }
+    .po3{
+        height: 90px;
+        width: 90px;
+        margin-top: 20px;
+    }
+    .po4{
+        height: 90px;
+        width: 90px;
+        margin-top: 20px;
+    }
+    .d2{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .d2 h1{
+        font-size: 25px;
+    }
+    .d2 h3{
+        font-size: 15px;
+    }
+    .d3{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .d4{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .d4 button{
+        height: 40px;
+        width: 150px;
+        font-size: 14px;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    #btn2{
+        height: 45px;
+        width: 250px;
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    #a6{
+        height: auto;
+        width: 100%;
+    }
+    .partners{
+        height: auto;
+        width: 90%;
+        margin-top: 20px;
+    }
+    .partners h3{
+        font-size: 22px;
+    }
+    .partners h1{
+        font-size: 35px;
+    }
+    .brands{
+        height: auto;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    .brand1,.brand2,.brand3,.brand4,.brand5,.brand6,.brand7,.brand8{
+        height: 200px;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    footer{
+        height: auto;
+        width: 100%;
+    }
+    .foo{
+        height: auto;
+        width: 95%;
+        flex-wrap: wrap;
+    }
+    .foo1,.foo2,.foo3,.foo4{
+        height: auto;
+        width: 45%;
+        margin-top: 40px;
+    }
+
+}
+
+
+
+@media(max-width:576px){
+    #a1{
+        height: 800px;
+        width: 100%;
+    }
+    .header{
+        height: auto;
+        width: 100%;
+    }
+    .head{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .logo{
+        height: 50px;
+        width: 50%;
+        margin-right: 350px;
+    }
+    /* nav{
+        height: auto; 
+        width: 100%;
+        display: none;
+    }
+    .logo{
+        height: auto;
+        width: 15%;
+        margin-left: 50px;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .menu{
+        width: 15%;
+        height: auto;
+        position: fixed;
+        right: 30px;
+        top: 0;
+        display: block;
+    } */
+    .science{
+        height: 500px;
+        width: 90%;
+        margin-top: 200px;
+        margin-left: 0;
+    }
+    .science h1{
+        font-size: 50px;
+    }
+    .science h2{
+        font-size: 19px;
+    }
+    .science button{
+        height: 50px;
+        width: 190px;
+        font-size: 15px;
+        margin-left: 330px;
+    }
+    #a2{
+        height: 800px;
+        width: 100%;
+    }
+    .header{
+        height: auto;
+        width: 100%;
+    }
+    .head{
+        height: auto;
+        width: 100%;
+    }
+    .science1{
+        height: 300px;
+        width: 100%;
+        margin-bottom: 200px;
+    }
+    .science1 h1{
+        font-size: 33px;
+    }
+    .science1 #h0{
+        font-size: 43px;
+    }
+    .row{
+        height: auto;
+        width: 95%;
+    }
+    .science1 h2{
+        font-size: 18px;
+    }
+    .science1 button{
+        height: 40px;
+        width: 140px;
+        font-size: 15px;
+    }
+    #a3{
+        height: auto;
+        width: 100%;
+    }
+    .about{
+        height: auto;
+        width: 95%;
+        flex-direction: column;
+    }
+    .abn1{
+        height: auto;
+        width: 95%;
+    }
+    .abn1 h3{
+        font-size: 18px;
+    }
+    .abn1 h1{
+        font-size: 30px;
+    }
+    .abn1 p{
+        font-size: 16px;
+    }
+    .abn1 button{
+        height: 40px;
+        width: 140px;
+        font-size: 15px;
+    }
+    .abn2{
+        height: auto;
+        width: 90%;
+        margin-top: 50px;
+    }
+    .abn2 img{
+        height: 85%;
+        width: 85%;
+    }
+    .cos{
+        height: auto;
+        width: 95%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .co1,.co2,.co3,.co4,.co5{
+        height: auto;
+        width: 95%;
+    }
+    #a4{
+        height: auto;
+        width: 100%;
+    }
+    .speak{
+        height: auto;
+        width: 85%;
+        margin-top: 25px;
+    }
+    .speak h3{
+        font-size: 22px;
+    }
+    .speak h1{
+        font-size: 35px;
+    }
+    .speakers{
+        height: auto;
+        width: 85%;
+        flex-direction: column;
+    }
+    .speaker1,.speaker2,.speaker3,.speaker4,.speaker5,.speaker6,.speaker6,.speaker7,.speaker8{
+        height: auto;
+        width: 90%;
+        margin-top: 20px;
+    }
+    #a4 button{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #a5{
+        height: auto;
+        width: 100%;
+    }
+    .timetable{
+        height: auto;
+        width: 95%;
+    }
+    .timetable h3{
+        font-size: 22px;
+    }
+    .timetable h1{
+        font-size: 35px;
+    }
+    .details{
+        height: auto;
+        width: 85%;
+    }
+    .detail1,.detail2,.detail3,.detail4{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .d1{
+        height: 100%;
+        width: 100%;
+    }
+    .po1{
+        height: 90px;
+        width: 90px;
+        margin-top: 20px;
+    }
+    .po2{
+        height: 90px;
+        width: 90px;
+        margin-top: 20px;
+    }
+    .po3{
+        height: 90px;
+        width: 90px;
+        margin-top: 20px;
+    }
+    .po4{
+        height: 90px;
+        width: 90px;
+        margin-top: 20px;
+    }
+    .d2{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .d2 h1{
+        font-size: 25px;
+    }
+    .d2 h3{
+        font-size: 15px;
+    }
+    .d3{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .d4{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .d4 button{
+        height: 40px;
+        width: 150px;
+        font-size: 14px;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    #btn2{
+        height: 40px;
+        width: 240px;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    #a6{
+        height: auto;
+        width: 100%;
+    }
+    .partners{
+        height: auto;
+        width: 95%;
+        margin-top: 20px;
+    }
+    .partners h3{
+        font-size: 22px;
+    }
+    .partners h1{
+        font-size: 35px;
+    }
+    .brands{
+        height: auto;
+        width: 95%;
+        flex-wrap: wrap;
+    }
+    .brand1,.brand2,.brand3,.brand4,.brand5,.brand6,.brand7,.brand8{
+        height: 200px;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    footer{
+        height: auto;
+        width: 100%;
+    }
+    .foo{
+        height: auto;
+        width: 95%;
+        flex-direction: column;
+    }
+    .foo1,.foo2,.foo3,.foo4{
+        height: auto;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+}
+
+
+
+
+@media(max-width:480px){
+    #a1{
+        height: 800px;
+        width: 100%;
+    }
+    .header{
+        height: auto;
+        width: 100%;
+    }
+    .head{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    /* nav{
+        height: auto;
+        width: 100%;
+        display: none;
+    }
+    .logo{
+        height: auto;
+        width: 15%;
+        margin-left: 50px;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .menu{
+        width: 15%;
+        height: auto;
+        position: fixed;
+        right: 30px;
+        top: 0;
+        display: block  ;
+    } */
+    .science{
+        height: 500px;
+        width: 90%;
+        margin-top: 200px;
+        margin-left: 0;
+    }
+    .science h1{
+        font-size: 45px;
+    }
+    .science h2{
+        font-size: 18px;
+    }
+    .science button{
+        height: 40px;
+        width: 180px;
+        font-size: 15px;
+        margin-left: 250px;
+    }
+    #a2{
+        height: 800px;
+        width: 100%;
+    }
+    .header{
+        height: auto;
+        width: 100%;
+    }
+    .head{
+        height: auto;
+        width: 100%;
+    }
+    .science1{
+        height: 300px;
+        width: 100%;
+        margin-bottom: 200px;
+    }
+    .science1 h1{
+        font-size: 30px;
+    }
+    .science1 #h0{
+        font-size: 40px;
+    }
+    .row{
+        height: auto;
+        width: 95%;
+    }
+    .science1 h2{
+        font-size: 18px;
+    }
+    .science1 button{
+        height: 40px;
+        width: 140px;
+        font-size: 15px;
+    }
+
+
+
+    #a3{
+        height: auto;
+        width: 100%;
+    }
+    .about{
+        height: auto;
+        width: 95%;
+        flex-direction: column;
+    }
+    .abn1{
+        height: auto;
+        width: 95%;
+    }
+    .abn1 h3{
+        font-size: 18px;
+    }
+    .abn1 h1{
+        font-size: 30px;
+    }
+    .abn1 p{
+        font-size: 16px;
+    }
+    .abn1 button{
+        height: 40px;
+        width: 140px;
+        font-size: 15px;
+    }
+    .abn2{
+        height: auto;
+        width: 95%;
+        margin-top: 50px;
+    }
+    .abn2 img{
+        height: 85%;
+        width: 85%;
+    }
+    .cos{
+        height: auto;
+        width: 95%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .co1,.co2,.co3,.co4,.co5{
+        height: auto;
+        width: 95%;
+    }
+    #a4{
+        height: auto;
+        width: 100%;
+    }
+    .speak{
+        height: auto;
+        width: 95%;
+        margin-top: 25px;
+    }
+    .speak h3{
+        font-size: 22px;
+    }
+    .speak h1{
+        font-size: 35px;
+    }
+    .speakers{
+        height: auto;
+        width: 95%;
+        flex-direction: column;
+    }
+    .speaker1,.speaker2,.speaker3,.speaker4,.speaker5,.speaker6,.speaker6,.speaker7,.speaker8{
+        height: auto;
+        width: 90%;
+        margin-top: 20px;
+    }
+    #a4 button{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #a5{
+        height: auto;
+        width: 100%;
+    }
+    .timetable{
+        height: auto;
+        width: 95%;
+    }
+    .timetable h3{
+        font-size: 22px;
+    }
+    .timetable h1{
+        font-size: 35px;
+    }
+    .details{
+        height: auto;
+        width: 85%;
+    }
+    .detail1,.detail2,.detail3,.detail4{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .d1{
+        height: 100%;
+        width: 100%;
+    }
+    .po1{
+        height: 90px;
+        width: 90px;
+        margin-top: 20px;
+    }
+    .po2{
+        height: 90px;
+        width: 90px;
+        margin-top: 20px;
+    }
+    .po3{
+        height: 90px;
+        width: 90px;
+        margin-top: 20px;
+    }
+    .po4{
+        height: 90px;
+        width: 90px;
+        margin-top: 20px;
+    }
+    .d2{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .d2 h1{
+        font-size: 25px;
+    }
+    .d2 h3{
+        font-size: 15px;
+    }
+    .d3{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .d4{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .d4 button{
+        height: 40px;
+        width: 150px;
+        font-size: 14px;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    #btn2{
+        height: 40px;
+        width: 240px;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    #a6{
+        height: auto;
+        width: 100%;
+    }
+    .partners{
+        height: auto;
+        width: 95%;
+        margin-top: 20px;
+    }
+    .partners h3{
+        font-size: 22px;
+    }
+    .partners h1{
+        font-size: 35px;
+    }
+    .brands{
+        height: auto;
+        width: 95%;
+        flex-wrap: wrap;
+    }
+    .brand1,.brand2,.brand3,.brand4,.brand5,.brand6,.brand7,.brand8{
+        height: 200px;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    footer{
+        height: auto;
+        width: 100%;
+    }
+    .foo{
+        height: auto;
+        width: 95%;
+        flex-direction: column;
+    }
+    .foo1,.foo2,.foo3,.foo4{
+        height: auto;
+        width: 100%;
+    }
+
+}
