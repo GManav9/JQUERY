@@ -1,0 +1,835 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 90px;
+    width: 100%;
+    background-color: #1842b6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+.logo h1{
+    font-size: 40px;
+    font-family: 'Saira', sans-serif;
+    display: inline;
+    font-weight: bolder;
+    color: white;
+}
+.logo h2{
+    font-size: 40px;
+    font-family: 'Saira', sans-serif;
+    color: #26d48c;
+    display: inline;
+    font-weight: bolder;
+}
+nav{
+    height: 100%;
+    width: 41%;
+}
+nav ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color: white;
+}
+.menu {
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: none;  
+}
+  .menu .fa-bars {
+    color: white;
+    font-size: 20px;
+}
+.call{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+.call .fa-phone-volume{
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+.spans{
+    height: 50%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+#h31{
+    font-size: 20px;
+    color: rgba(255,255,255,.5);
+    font-weight: normal;
+}
+#h32{
+    font-size: 20px;
+    color: #26d48c;
+    font-weight: normal;
+}
+.fa-searchengin{
+    color: white;
+    font-size: 35px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+/* header is over */
+
+
+/* section a1 is start */
+#a1{
+    height: 1000px;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(img/carousel-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.best{
+    height: 400px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.best h3{
+    font-family: 'Saira', sans-serif;
+    color: #26d48c;
+    font-size: 25px;
+}
+.best h1{
+    font-family: 'Saira', sans-serif;
+    color: white;
+    font-size: 80px;
+    font-weight: bolder;
+}
+.best p{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 23px;
+    width: 50%;
+    text-align: center;
+    margin-top: 40px;
+}
+#btn1{
+    height: 50px;
+    width: 160px;
+    background-color: #26d48c;
+    border: 1px solid #26d48c;
+    border-radius: 40px;
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 40px;
+    cursor: pointer;
+}
+#btn2{
+    height: 50px;
+    width: 160px;
+    background-color: #1842b6;
+    border: 1px solid #1842b6;
+    color: white;
+    border-radius: 40px;
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 20px;
+    cursor: pointer;
+}
+#a2{
+    height: 1000px;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(img/carousel-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* seciton a2 is over */
+
+/* seciton a3 is start */
+#a3{
+    height: 200px;
+    width: 100%;
+    background-color: #26d48c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    height: 150px;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.coun1,.coun2,.coun3,.coun4{
+    height: 100%;
+    width: 23%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.coun1 h1,.coun2 h1,.coun3 h1,.coun4 h1{
+    color: #1842b6;
+    font-family: 'Saira', sans-serif;
+    font-size: 40px;
+}
+.coun1 h3,.coun2 h3,.coun3 h3,.coun4 h3{
+    font-family: 'Saira', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+/* seciton a3 is over */
+
+
+/* seciton a4 is start */
+
+#a4{
+    height: 800px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    height: 600px;
+    width: 70%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.abn1{
+    height: 100%;
+    width: 42%;
+    /* border: 1px solid red; */
+    position: relative;
+}
+.img1{
+    height: 340px;
+    width: 400px;
+    background-image: url(img/about-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    position: absolute;
+    top: 50px;
+}
+.img2{
+    height: 340px;
+    width: 400px;
+    background-image: url(img/about-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    position: absolute;
+    top: 190px;
+    left: 150px;
+}
+.abn2{
+    height: 100%;
+    width: 56%;
+    /* border: 1px solid black; */
+}
+.abn2 h3{
+    font-family: 'Saira', sans-serif;
+    color: #1842b6;
+    font-size: 25px;
+}
+.abn2 h1{
+    font-family: 'Saira', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.abn2 #p1{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: #787878;   
+    margin-top: 35px;
+}
+.abn2 #p2{
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    color: #787878;   
+    margin-top: 30px;
+}
+.abn2 button{
+    height: 60px;
+    width: 180px;
+    background-color: #26d48c;
+    border: 1px solid #26d48c;
+    border-radius: 40px;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 50px;
+    cursor: pointer;
+    color: white;   
+}
+
+/* section a4 is over */
+
+
+/* section a5 is start */
+#a5{
+    height: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.our{
+    height: 160px;
+    width: 30%;
+    text-align: center;
+    margin-top: 30px;
+}
+.our h3{
+    font-family: 'Saira', sans-serif;
+    color: #1842b6;
+    font-size: 25px;
+}
+.our h1{
+    font-family: 'Saira', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.services{
+    height: 900px;
+    width: 70%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.service1,.service2,.service3{
+    height: 400px;
+    width: 30%;
+    box-shadow: 0 0 60px rgba(0, 0, 0, .2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.service4,.service5,.service6{
+    height: 400px;
+    width: 30%;
+    margin-top: 30px;
+    box-shadow: 0 0 60px rgba(0, 0, 0, .2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.service1 h2,.service2 h2,.service3 h2,.service4 h2,.service5 h2,.service6 h2{
+    font-family: 'Saira', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.service1 p,.service2 p,.service3 p,.service4 p,.service5 p,.service6 p{
+    font-family: 'Inter', sans-serif;
+    color: #787878;
+    text-align: center;
+    font-size: 17px;
+    width: 90%;
+}
+.service1 button,.service2 button,.service3 button,.service4 button,.service5 button,.service6 button{
+    height: 50px;
+    width: 160px;
+    background-color: #26d48c;
+    border: 1px solid #26d48c;
+    border-radius: 40px;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    color: white;   
+    margin-bottom: 30px;
+}
+
+
+/* section a5 is over */
+
+/* section a6 is start */
+#a6{
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.proje{
+    height: 160px;
+    width: 25%;
+    text-align: center;
+    margin-top: 30px;
+}
+.proje h3{
+    font-family: 'Saira', sans-serif;
+    color: #1842b6;
+    font-size: 25px;
+}
+.proje h1{
+    font-family: 'Saira', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.project{
+    height: 700px;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.project1{
+    height: 300px;
+    width: 30%;
+    background-image: url(img/project-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project1:hover{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(img/project-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.project1:hover .extras{
+    display: flex;
+}
+.project2{
+    height: 300px;
+    width: 30%;
+    background-image: url(img/project-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project2:hover{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(img/project-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.project2:hover .extras{
+    display: flex;
+}
+.project3{
+    height: 300px;
+    width: 30%;
+    background-image: url(img/project-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project3:hover{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(img/project-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.project3:hover .extras{
+    display: flex;
+}
+.project4{
+    height: 300px;
+    width: 30%;
+    background-image: url(img/project-4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project4:hover{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(img/project-4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.project4:hover .extras{
+    display: flex;
+}
+.project5{
+    height: 300px;
+    width: 30%;
+    background-image: url(img/project-5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project5:hover{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(img/project-5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.project5:hover .extras{
+    display: flex;
+}
+.project6{
+    height: 300px;
+    width: 30%;
+    background-image: url(img/project-6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project6:hover{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(img/project-6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.project6:hover .extras{
+    display: flex;
+}
+.extras{
+    height: 100px;
+    width: 250px;
+    background-color: #1842b6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    display: none;
+}
+.extras h2{
+    font-family: 'Saira', sans-serif;
+    color: #26d48c;
+    font-size: 25px;
+}
+.extras h3{
+    font-family: 'Saira', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+/* section a6 is over */
+
+
+/* section a7 is start */
+#a7{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.team{
+    height: 100px;
+    width: 30%;
+    text-align: center;
+    margin-top: 30px;
+    /* border: 1px solid black; */
+}
+.team h3{
+    font-family: 'Saira', sans-serif;
+    color: #1842b6;
+    font-size: 25px;
+}
+.team h1{
+    font-family: 'Saira', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.teams{
+    height: 600px;
+    width: 70%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+.slider {
+    width: 100%;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.team1,.team2,.team3,.team4{
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgba(239, 239, 241, 0.8);
+}
+.mem1{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 10px solid  #26d48c;
+    background-image: url(img/team-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.mem2{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 10px solid  #26d48c;
+    background-image: url(img/team-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.mem3{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 10px solid  #26d48c;
+    background-image: url(img/team-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.mem4{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 10px solid  #26d48c;
+    background-image: url(img/team-4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.socials{
+    height: 50px;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.face,.twi,.link,.inst{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #26d48c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.face .fa-facebook-f{
+    color: white;
+    font-size: 18px;
+}
+.twi .fa-twitter{
+    color: white;
+    font-size: 18px;
+}
+.link .fa-linkedin-in{
+    color: white;
+    font-size: 18px;
+}
+.inst .fa-instagram{
+    color: white;
+    font-size: 18px;
+}
+
+/* seciton a7 is over */
+
+
+/* footer is start */
+footer{
+    height: 400px;
+    width: 100%;
+    background-color: #000103;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foo{
+    height: 320px;
+    width: 70%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foo1,.foo2,.foo3,.foo4{
+    height: 100%;
+    width: 23%;
+    /* border: 1px solid white; */
+}
+.foo1 h1{
+    font-size: 40px;
+    font-family: 'Saira', sans-serif;
+    display: inline;
+    font-weight: bolder;
+    color: white;
+}
+.foo1 h2{
+    font-size: 40px;
+    font-family: 'Saira', sans-serif;
+    color: #26d48c;
+    display: inline;
+    font-weight: bolder;
+}
+.foo1 p{
+    color: white;
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 40px;
+}
+.foo2 h1{
+    font-size: 30px;
+    font-family: 'Saira', sans-serif;
+    color: #26d48c;
+    font-weight: bolder;
+}
+.all1{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.all1 a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+}
+.all1 a:hover{
+    color: white;
+}
+.all2 a:hover{
+    color: white;
+}
+.foo3 h1{
+    font-size: 30px;
+    font-family: 'Saira', sans-serif;
+    color: #26d48c;
+    font-weight: bolder;
+}
+.all2{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.all2 a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+}
+.foo4 h1{
+    font-size: 30px;
+    font-family: 'Saira', sans-serif;
+    color: #26d48c;
+    font-weight: bolder;
+}
+.fa-location-dot{
+    color: #26d48c;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.fa-phone{
+    color: #26d48c;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.fa-envelope{
+    color: #26d48c;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.foo4 span{
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    margin-left: 15px;
+    border: 2px solid #1842b6;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
