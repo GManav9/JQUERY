@@ -1,0 +1,1000 @@
+@media(max-width:980px){
+    header{
+        height: auto;
+        width: 100%;
+    }
+    .head{
+        height: auto;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .logo{
+        height: 70px;
+        width: 25%;
+    }
+    .logo img{
+        height: 50px;
+        width: 100%;
+    }
+    nav{
+        height: auto;
+        width: 100%;
+        /* display: none; */
+    }
+    nav ul{
+        justify-content: space-evenly;
+    }
+    .search{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    #a1{
+        height: auto;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .turns{
+        height: auto;
+        width: 80%;
+        flex-direction: column;
+    }
+    .turn1{
+        height: auto;
+        width: 90%;
+    }
+    .turn2{
+        height: 550px;
+        margin-top: 30px;
+        width: 75%;
+    }
+    .swiper{
+        height: auto;
+        width: auto;
+    }
+    .ms{
+        height: 80px;
+        width: 80px;
+        margin-top: 30px;
+    }
+    .turn1 h1{
+        font-size: 40px;
+    }
+    .turn1 p{
+        font-size: 19px;
+        margin-top: 15px;
+    }
+    .turn1 button{
+        height: 50px;
+        width: 190px;
+        font-size: 17px;
+        margin-top: 25px;
+    }
+    #a2{
+        height: auto;
+        width: 100%;
+    }
+    .about{
+        height: auto;
+        width: 90%;
+        flex-direction: column;
+    }
+    .abn1{
+        margin-top: 50px;
+        height: 550px;
+        width: 75%;
+    }
+    .abn2{
+        height: auto;
+        width: 90%;
+    }
+    .abn2 h3{
+        font-size: 25px;
+    }
+    .abn2 h1{
+        font-size: 40px;
+    }
+    .abn2 p{
+        font-size: 19px;
+    }
+    .abn2 button{
+        height: 55px;
+        width: 180px;
+        font-size: 18px;
+    }
+    #a3{
+        height: auto;
+        width: 100%;
+    }
+    .pillars{
+        height: auto;
+        width: 100%;
+        margin-top: 150px;
+    }
+    .pillars h3{
+        font-size: 25px;
+    }
+    .pillars h1{
+        font-size: 40px;
+    }
+    .islam{
+        height: 300px;
+        width: 90%;
+        margin-top: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .islam1,.islam2,.islam3,.islam4,.islam5{
+        height: 400px;
+        width: 400px;
+    }
+    #a4{
+        height: auto;
+        width: 100%;
+        margin-top: 150px;
+    }
+    .our{
+        height: auto;
+        width: 90%;
+    }
+    .our h3{
+        font-size: 25px;
+    }
+    .our h1{
+        font-size: 40px;
+    }
+    .services{
+        height: auto;
+        width: 90%;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+    }
+    .service1,.service2,.service3,.service4,.service5,.service6{
+        height: 350px;
+        width: 47%;
+        margin-top: 30px;
+    }
+    #a5{
+        height: auto;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .support{
+        height: auto;
+        width: 80%;
+        margin-left: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .support h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .support h2{
+        font-size: 40px;
+        text-align: center;
+    }
+    .support p{
+        font-size: 18px;
+        text-align: center;
+    }
+    .cous{
+        height: auto;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .cous1,.cous2,.cous3,.cous4{
+        height: 100px;
+        width: 43%;
+    }
+    .support button{
+        height: 55px;
+        width: 180px;
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+    #a6{
+        height: auto;
+        width: 100%;
+    }
+    .bl{
+        height: auto;
+        width: 100%;
+        margin-top: 25px;
+    }
+    .bl h3{
+        font-size: 25px;
+    }
+    .bl h1{
+        font-size: 40px;
+    }
+    .blogs{
+        height: auto;
+        width: 60%;
+        flex-direction: column;
+    }
+    .blog1,.blog2,.blog3{
+        height: 500px;
+        width: 100%;
+        margin-top: 50px;
+    }
+    footer{
+        height: auto;
+        width: 100%;
+    }
+    .foo{
+        height: auto;
+        width: 90%;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+    }
+    .foo1,.foo2,.foo3{
+        height: 370px;
+        width: 45%;
+        margin-top: 25px;
+    }
+    .foo4{
+        height: 300px;
+        width: 45%;
+        /* margin-top: 25px; */
+        margin-bottom: 50px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:720px){
+    header{
+        height: auto;
+        width: 100%;
+    }
+    .head{
+        height: auto;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .logo{
+        height: 70px;
+        width: 25%;
+    }
+    .logo img{
+        height: 50px;
+        width: 100%;
+    }
+    nav{
+        height: auto;
+        width: 100%;
+        display: none;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .search{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    #a1{
+        height: auto;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .turns{
+        height: auto;
+        width: 90%;
+        flex-direction: column;
+    }
+    .turn1{
+        height: auto;
+        width: 90%;
+    }
+    .turn2{
+        height: 500px;
+        margin-top: 30px;
+        width: 90%;
+    }
+    .swiper{
+        height: auto;
+        width: auto;
+    }
+    .ms{
+        height: 80px;
+        width: 80px;
+        margin-top: 30px;
+    }
+    .turn1 h1{
+        font-size: 35px;
+    }
+    .turn1 p{
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .turn1 button{
+        height: 45px;
+        width: 170px;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    #a2{
+        height: auto;
+        width: 100%;
+    }
+    .about{
+        height: auto;
+        width: 90%;
+        flex-direction: column;
+    }
+    .abn1{
+        margin-top: 50px;
+        height: 500px;
+        width: 90%;
+    }
+    .abn2{
+        height: auto;
+        width: 90%;
+    }
+    .abn2 h3{
+        font-size: 23px;
+    }
+    .abn2 h1{
+        font-size: 35px;
+    }
+    .abn2 p{
+        font-size: 18px;
+    }
+    .abn2 button{
+        height: 50px;
+        width: 160px;
+        font-size: 17px;
+    }
+    #a3{
+        height: auto;
+        width: 100%;
+    }
+    .pillars{
+        height: auto;
+        width: 100%;
+    }
+    .pillars h3{
+        font-size: 23px;
+    }
+    .pillars h1{
+        font-size: 35px;
+    }
+    .islam{
+        height: 300px;
+        width: 90%;
+        margin-top: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .islam1,.islam2,.islam3,.islam4,.islam5{
+        height: 400px;
+        width: 400px;
+        margin-left: 100px;
+    }
+    #a4{
+        height: auto;
+        width: 100%;
+        margin-top: 150px;
+    }
+    .our{
+        height: auto;
+        width: 90%;
+    }
+    .our h3{
+        font-size: 23px;
+    }
+    .our h1{
+        font-size: 35px;
+    }
+    .services{
+        height: auto;
+        width: 80%;
+        flex-direction: column;
+    }
+    .service1,.service2,.service3,.service4,.service5,.service6{
+        height: 350px;
+        width: 100%;
+        margin-top: 30px;
+    }
+    #a5{
+        height: auto;
+        width: 100%;
+        margin-top: 30px;
+        /* justify-content: center; */
+    }
+    .support{
+        height: auto;
+        width: 80%;
+        margin-left: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .support h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .support h2{
+        font-size: 35px;
+        text-align: center;
+    }
+    .support p{
+        font-size: 18px;
+        text-align: center;
+    }
+    .cous{
+        height: auto;
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 15px;
+    }
+    .cous1,.cous2,.cous3,.cous4{
+        height: 100px;
+        width: 43%;
+    }
+    .support button{
+        height: 50px;
+        width: 160px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    #a6{
+        height: auto;
+        width: 100%;
+    }
+    .bl{
+        height: auto;
+        width: 100%;
+        margin-top: 25px;
+    }
+    .bl h3{
+        font-size: 23px;
+    }
+    .bl h1{
+        font-size: 35px;
+    }
+    .blogs{
+        height: auto;
+        width: 70%;
+        flex-direction: column;
+    }
+    .blog1,.blog2,.blog3{
+        height: 500px;
+        width: 100%;
+        margin-top: 50px;
+    }
+    footer{
+        height: auto;
+        width: 100%;
+    }
+    .foo{
+        height: auto;
+        width: 90%;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+    }
+    .foo1,.foo2,.foo3{
+        height: 370px;
+        width: 45%;
+        margin-top: 25px;
+    }
+    .foo4{
+        height: 300px;
+        width: 45%;
+        /* margin-top: 25px; */
+        margin-bottom: 50px;
+    }
+
+}
+
+
+@media(max-width:576px){
+    header{
+        height: auto;
+        width: 100%;
+    }
+    .head{
+        height: auto;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .logo{
+        height: 50px;
+        width: 40%;
+    }
+    .logo img{
+        height: 50px;
+        width: 100%;
+    }
+    nav{
+        height: auto;
+        width: 100%;
+        display: none;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .search{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    #a1{
+        height: auto;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .turns{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .turn1{
+        height: auto;
+        width: 90%;
+    }
+    .turn2{
+        height: 500px;
+        margin-top: 30px;
+        width: 90%;
+    }
+    .swiper{
+        height: auto;
+        width: auto;
+    }
+    .ms{
+        height: 80px;
+        width: 80px;
+        margin-top: 30px;
+    }
+    .turn1 h1{
+        font-size: 30px;
+    }
+    .turn1 p{
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .turn1 button{
+        height: 40px;
+        width: 150px;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    #a2{
+        height: auto;
+        width: 100%;
+    }
+    .about{
+        height: auto;
+        width: 90%;
+        flex-direction: column;
+    }
+    .abn1{
+        margin-top: 50px;
+        height: 500px;
+        width: 100%;
+    }
+    .abn2{
+        height: auto;
+        width: 90%;
+    }
+    .abn2 h3{
+        font-size: 20px;
+    }
+    .abn2 h1{
+        font-size: 30px;
+    }
+    .abn2 p{
+        font-size: 17px;
+    }
+    .abn2 button{
+        height: 45px;
+        width: 150px;
+        font-size: 16px;
+    }
+    #a3{
+        height: auto;
+        width: 100%;
+    }
+    .pillars{
+        height: auto;
+        width: 100%;
+    }
+    .pillars h3{
+        font-size: 20px;
+    }
+    .pillars h1{
+        font-size: 30px;
+    }
+    .islam{
+        height: 300px;
+        width: 90%;
+        margin-top: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .islam1,.islam2,.islam3,.islam4,.islam5{
+        height: 400px;
+        width: 400px;
+        margin-left: 50px;
+    }
+    #a4{
+        height: auto;
+        width: 100%;
+    }
+    .our{
+        height: auto;
+        width: 90%;
+    }
+    .our h3{
+        font-size: 20px;
+    }
+    .our h1{
+        font-size: 30px;
+    }
+    .services{
+        height: auto;
+        width: 90%;
+        flex-direction: column;
+    }
+    .service1,.service2,.service3,.service4,.service5,.service6{
+        height: 350px;
+        width: 100%;
+        margin-top: 30px;
+    }
+    #a5{
+        height: auto;
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .support{
+        height: auto;
+        width: 90%;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        /* border: 1px solid red; */
+    }
+    .support h1{
+        font-size: 30px;
+    }
+    .support h2{
+        font-size: 30px;
+    }
+    .support p{
+        font-size: 17px;
+    }
+    .cous{
+        height: auto;
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 15px;
+        justify-content: space-evenly;
+    }
+    .cous1,.cous2,.cous3,.cous4{    
+        height: 100px;
+        width: 43%;
+    }
+    .support button{
+        height: 50px;
+        width: 160px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    #a6{
+        height: auto;
+        width: 100%;
+    }
+    .bl{
+        height: auto;
+        width: 100%;
+        margin-top: 25px;
+    }
+    .bl h3{
+        font-size: 20px;
+    }
+    .bl h1{
+        font-size: 30px;
+    }
+    .blogs{
+        height: auto;
+        width: 85%;
+        flex-direction: column;
+    }
+    .blog1,.blog2,.blog3{
+        height: 500px;
+        width: 100%;
+        margin-top: 50px;
+    }
+    footer{
+        height: auto;
+        width: 100%;
+    }
+    .foo{
+        height: auto;
+        width: 90%;
+        flex-direction: column;
+    }
+    .foo1,.foo2,.foo3{
+        height: 370px;
+        width: 100%;
+        margin-top: 25px;
+    }
+    .foo4{
+        height: 300px;
+        width: 100%;
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media(max-width:480px){
+    header{
+        height: auto;
+        width: 100%;
+    }
+    .head{
+        height: auto;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .logo{
+        height: 50px;
+        width: 50%;
+    }
+    .logo img{
+        height: 50px;
+        width: 100%;
+    }
+    nav{
+        height: auto;
+        width: 100%;
+        display: none;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .search{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    #a1{
+        height: auto;
+        width: 100%;
+    }
+    .turns{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .turn1{
+        height: auto;
+        width: 90%;
+    }
+    .turn2{
+        height: 500px;
+        margin-top: 30px;
+        width: 90%;
+    }
+    .swiper{
+        height: auto;
+        width: auto;
+    }
+    .ms{
+        height: 80px;
+        width: 80px;
+        margin-top: 30px;
+    }
+    .turn1 h1{
+        font-size: 30px;
+    }
+    .turn1 p{
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .turn1 button{
+        height: 40px;
+        width: 150px;
+        font-size: 15px;
+    }
+    #a2{
+        height: auto;
+        width: 100%;
+    }
+    .about{
+        height: auto;
+        width: 90%;
+        flex-direction: column;
+    }
+    .abn1{
+        margin-top: 50px;
+        height: 500px;
+        width: 100%;
+    }
+    .abn2{
+        height: auto;
+        width: 90%;
+    }
+    .abn2 h3{
+        font-size: 20px;
+    }
+    .abn2 h1{
+        font-size: 30px;
+    }
+    .abn2 p{
+        font-size: 17px;
+    }
+    .abn2 button{
+        height: 45px;
+        width: 150px;
+        font-size: 16px;
+    }
+    #a3{
+        height: auto;
+        width: 100%;
+    }
+    .pillars{
+        height: auto;
+        width: 100%;
+    }
+    .pillars h3{
+        font-size: 20px;
+    }
+    .pillars h1{
+        font-size: 30px;
+    }
+    .islam{
+        height: 300px;
+        width: 90%;
+    }
+    #a4{
+        height: auto;
+        width: 100%;
+    }
+    .our{
+        height: auto;
+        width: 90%;
+    }
+    .our h3{
+        font-size: 20px;
+    }
+    .our h1{
+        font-size: 30px;
+    }
+    .services{
+        height: auto;
+        width: 90%;
+        flex-direction: column;
+    }
+    .service1,.service2,.service3,.service4,.service5,.service6{
+        height: 350px;
+        width: 100%;
+        margin-top: 30px;
+    }
+    #a5{
+        height: auto;
+        width: 100%;
+    }
+    .support{
+        height: auto;
+        width: 90%;
+        margin-left: 10px;
+    }
+    .support h1{
+        font-size: 30px;
+    }
+    .support h2{
+        font-size: 30px;
+    }
+    .support p{
+        font-size: 17px;
+    }
+    .islam{
+        height: 300px;
+        width: 90%;
+        margin-top: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .islam1,.islam2,.islam3,.islam4,.islam5{
+        height: 400px;
+        width: 350px;
+        margin-left: 20px;
+    }
+    .cous{
+        height: auto;
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 15px;
+    }
+    .cous1,.cous2,.cous3,.cous4{
+        height: 100px;
+        width: 43%;
+    }
+    .support button{
+        height: 50px;
+        width: 160px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    #a6{
+        height: auto;
+        width: 100%;
+    }
+    .bl{
+        height: auto;
+        width: 100%;
+    }
+    .bl h3{
+        font-size: 20px;
+    }
+    .bl h1{
+        font-size: 30px;
+    }
+    .blogs{
+        height: auto;
+        width: 90%;
+        flex-direction: column;
+    }
+    .blog1,.blog2,.blog3{
+        height: 500px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    footer{
+        height: auto;
+        width: 100%;
+    }
+    .foo{
+        height: auto;
+        width: 90%;
+        flex-direction: column;
+    }
+    .foo1,.foo2,.foo3{
+        height: 370px;
+        width: 100%;
+        margin-top: 25px;
+    }
+    .foo4{
+        height: 300px;
+        width: 100%;
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+
+}
