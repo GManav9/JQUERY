@@ -1,0 +1,327 @@
+@media(max-width:980px){
+    aside{
+        height: auto;
+    }
+    .hide{
+        height: auto;
+    }
+    header{
+        margin-left: 0;
+        height: auto;
+    }
+    .icons2{
+        height: auto;
+        width: 20%;
+    }
+    .profile{
+        height: auto;
+        width: 20%;
+    }
+    .all{
+        margin-left: 0;
+        height: auto;
+        width: 100%;
+    }
+    .all .members{
+        height: auto;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .mem1,.mem2,.mem3,.mem4,.mem5,.mem6,.mem7,.mem8{
+        height: 300px;
+        width: 47%;
+        margin-top: 30px;
+    }
+    aside{
+        display: none;
+    }
+    .bu1{
+        display: none;
+    }
+    .hide{
+        display: none;
+    }
+    .header1{
+        margin-left: 0;
+        z-index: -2;
+    }
+    .traffic{
+        height: auto;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .tr1{
+        height: auto;
+        width: 90%;
+    }
+    .call{
+        height: 450px;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .tr2{
+        height: auto;
+        width: 90%;
+        margin-top: 80px;
+        flex-wrap: wrap ;
+    }
+    .jo1,.jo2,.jo3{
+        height: 400px;
+    }
+    .jo3{
+        margin-top: 20px;
+    }
+    .head12{
+        height: auto;
+        display: block;
+    }
+}
+
+@media(max-width:720px){
+    aside{
+        height: auto;
+        display: none;
+    }
+    .hide{
+        height: auto;
+        display: none;
+    }
+    header{
+        height: auto;
+        margin-left: 0;
+    }
+    .bu1{
+        display: none;
+    }
+    .icons2{
+        width: 20%;
+    }
+    .profile{
+        width: 20%;
+    }
+    .flag{
+        height: 40px;
+        width: 40px;
+    }
+    .human{
+        height: 40px;
+        width: 40px;
+    }
+    .all{
+        height: auto;
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .all1{
+        height: auto;
+        width: 100%;        
+    }
+    .all .members{
+        height: auto;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .mem1,.mem2,.mem3,.mem4,.mem5,.mem6,.mem7,.mem8{
+        height: 200px;
+        width: 95%;
+        margin-top: 20px;
+    }
+    .all .traffic{
+        height: auto;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .tr1{
+        height: auto;
+        width: 95%;
+    }
+    .call{
+        height: 450px;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .tr2{
+        height: auto;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+    .jo1,.jo2,.jo3{
+        height: 400px;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:576px){
+    aside{
+        height: auto;
+        display: none;
+    }
+    .hide{
+        height: auto;
+        display: none;
+    }
+    header{
+        height: auto;
+        margin-left: 0;
+    }
+    .bu1{
+        display: none;
+    }
+    .icons2{
+        width: 20%;
+    }
+    .profile{
+        width: 20%;
+    }
+    .flag{
+        height: 40px;
+        width: 40px;
+    }
+    .human{
+        height: 40px;
+        width: 40px;
+    }
+    .all{
+        height: auto;
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .all1{
+        height: auto;
+        width: 100%;        
+    }
+    .all .members{
+        height: auto;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .mem1,.mem2,.mem3,.mem4,.mem5,.mem6,.mem7,.mem8{
+        height: 200px;
+        width: 95%;
+        margin-top: 20px;
+    }
+    .all .traffic{
+        height: auto;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .tr1{
+        height: auto;
+        width: 95%;
+    }
+    .call{
+        height: 450px;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .tr2{
+        height: auto;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+    .jo1,.jo2,.jo3{
+        height: 400px;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:480px){
+    aside{
+        height: auto;
+        display: none;
+    }
+    .hide{
+        height: auto;
+        display: none;
+    }
+    header{
+        height: auto;
+        margin-left: 0;
+        width: 100%;
+    }
+    .bu1{
+        display: none;
+    }
+    .icons2{
+        width: 20%;
+    }
+    .profile{
+        width: 20%;
+    }
+    .flag{
+        height: 40px;
+        width: 40px;
+    }
+    .human{
+        height: 40px;
+        width: 40px;
+    }
+    .all{
+        height: auto;
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .all1{
+        height: auto;
+        width: 100%;        
+    }
+    .all .members{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .mem1,.mem2,.mem3,.mem4,.mem5,.mem6,.mem7,.mem8{
+        height: 200px;
+        width: 95%;
+        margin-top: 20px;
+    }
+    .all .traffic{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .tr1{
+        height: auto;
+        width: 100%;
+    }
+    .call{
+        height: 450px;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .tr2{
+        height: auto;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .jo1,.jo2,.jo3{
+        height: 400px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .head12{
+        height: auto;
+        display: block;
+    }
+}

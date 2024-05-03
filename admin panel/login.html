@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* font-family: Arial, Helvetica, sans-serif; */
+            font-family: 'Open Sans', sans-serif;   
+        }
+        .a{
+            height: 750px;
+            width: 100%;
+            /* border: 1px solid black; */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .pro{
+            height: 100px;
+            width: 100px;
+            /* border: 1px solid black; */
+            border-radius: 50%;
+        }
+        .login{
+            height: 620px;
+            width: 35%;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow:2px 2px 5px 5px #04AA6D;
+        }
+        .login:hover{
+            box-shadow:5px 5px 15px 15px #3b5998;
+        }
+        .login input{
+            height: 40px;
+            width: 500px;
+            padding-left: 15px;
+        }
+        .login #btn1{
+            height: 50px;
+            width: 500px;
+            cursor: pointer;
+            background-color: #04AA6D;
+            border: 1px solid #04AA6D;
+            color: white;
+            font-size: 18px;
+        }
+        .login #btn2{
+            height: 50px;
+            width: 500px;
+            cursor: pointer;
+            background-color: #04AA6D;
+            border: 1px solid #04AA6D;
+            color: white;
+            font-size: 18px;
+        }
+        label{
+            color: #8b939b;
+            font-size: 18px;
+        }
+        .login #btn3{
+            height: 50px;
+            width: 500px;
+            cursor: pointer;
+            background-color: #3b5998;
+            border: 1px solid #3b5998;
+            color: white;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        .login #btn4{
+            height: 50px;
+            width: 500px;
+            cursor: pointer;
+            background-color: red;
+            border: 1px solid red;
+            color: white;
+            font-size: 18px;
+        }
+        .check{
+            height: 50px;
+            width: 500px;
+            /* border: 1px solid black; */
+            position: relative;
+        }
+        #che{
+            height: 20px;
+            width: 20px;
+            position: absolute;
+        }
+        h3{
+            display: inline;
+            font-weight: normal;
+            margin-left: 5px;
+            position: absolute;
+            left: 20px;
+            bottom: 26px;
+        }
+        h5{
+            position: absolute;
+            right: 0;
+            font-weight: normal;
+            color: red;
+            font-size: 16px;
+        }
+
+        @media(max-width:980px){
+            .a{
+                height: auto;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .pro{
+                margin-top: 50px;
+                height: auto;
+                width: 17%;
+            }
+            .login{
+                height: auto;
+                width: 65%;
+            }
+            .login input{
+                height: 35px;
+                width: 360px;
+                margin-left: 60px;
+                margin-top: 20px;
+            }
+            .login #btn1,.login #btn2,.login #btn3,.login #btn4{
+                height: 35px;
+                width: 360px;
+                margin-left: 60px;
+            }
+            label{
+                margin-left: 60px;
+            }
+            #che{
+                top: 4px;
+                margin-left: 65px;
+            }
+            h3{
+                margin-left: 80px;
+                top: 0;
+                margin-top: 20px;
+            }
+            h5{
+                margin-right: 60px;
+                margin-top: 20px;
+            }
+        }
+
+        @media(max-width:720px){
+            .a{
+                height: auto;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .pro{
+                margin-top: 50px;
+                height: auto;
+                width: 17%;
+            }
+            .login{
+                height: auto;
+                width: 85%;
+            }
+            .login input{
+                height: 35px;
+                width: 360px;
+                margin-left: 60px;
+                margin-top: 20px;
+            }
+            .login #btn1,.login #btn2,.login #btn3,.login #btn4{
+                height: 35px;
+                width: 360px;
+                margin-left: 60px;
+            }
+            label{
+                margin-left: 60px;
+            }
+            #che{
+                top: 4px;
+                margin-left: 65px;
+            }
+            h3{
+                margin-left: 80px;
+                top: 0;
+                margin-top: 20px;
+            }
+            h5{
+                margin-right: 60px;
+                margin-top: 20px;
+            }
+        }
+
+        @media(max-width:576px){
+            .a{
+                height: auto;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .pro{
+                margin-top: 50px;
+                height: auto;
+                width: 17%;
+            }
+            .login{
+                height: auto;
+                width: 95%;
+            }
+            .login input{
+                height: 35px;
+                width: 360px;
+                margin-left: 60px;
+                margin-top: 20px;
+            }
+            .login #btn1,.login #btn2,.login #btn3,.login #btn4{
+                height: 35px;
+                width: 360px;
+                margin-left: 60px;
+            }
+            label{
+                margin-left: 60px;
+            }
+            #che{
+                top: 4px;
+                margin-left: 65px;
+            }
+            h3{
+                margin-left: 80px;
+                top: 0;
+                margin-top: 20px;
+            }
+            h5{
+                margin-right: 50px;
+                margin-top: 20px;
+            }
+        }
+
+        @media(max-width:480px){
+            .a{
+                height: auto;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .pro{
+                margin-top: 50px;
+                height: auto;
+                width: 17%;
+            }
+            .login{
+                height: auto;
+                width: 95%;
+            }
+            .login input{
+                height: 35px;
+                width: 360px;
+                margin-left: 60px;
+                margin-top: 20px;
+            }
+            .login #btn1,.login #btn2,.login #btn3,.login #btn4{
+                height: 35px;
+                width: 360px;
+                margin-left: 60px;
+            }
+            label{
+                margin-left: 60px;
+            }
+            #che{
+                top: 4px;
+                margin-left: 65px;
+            }
+            h3{
+                margin-left: 80px;
+                top: 0;
+                margin-top: 20px;
+            }
+            h5{
+                margin-right: 50px;
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+     <div class="a">
+        <div class="pro">
+            <img src="images/profile.png" height="100%" width="100%">
+        </div>
+        <div class="login">
+            <form action="">
+                <label for="">Your Name</label><br>
+                <input type="text" placeholder="Enter Your Name" required id="username" ><br><br>
+                <label for="">Password</label><br>
+                <input type="password" placeholder="Enter Your Password" required id="password" ><br><br>
+                <button type="button" id="btn1">Submit</button><br><br>
+                <button type="button" id="btn2">Registration</button><br><br>
+                <div class="check"><input type="checkbox" id="che"><h3>Remember Me</h3><h5>Forgot Password ?</h5></div>
+                <br><br>
+                <button type="button" id="btn3">SIGN IN WITH FACEBOOK</button><br><br>
+                <button type="button" id="btn4">SIGN IN WITH Google</button>
+            </form>
+        </div>
+     </div>
+</body>
+
+<script>
+    $(document).ready(function(){
+        $("#btn1").click(function(){
+            var us=document.getElementById('username').value;
+            var pw=document.getElementById('password').value;
+        if(us =='admin' && pw =='123')
+        {
+            window.location.replace('index.html');
+            // window.location.href='index.html';
+        }
+    });
+    $("#btn2").click(function(){
+        window.location.replace("./registartion.html");
+    })
+    });
+</script>
+</html>
